@@ -4,7 +4,6 @@
 
 int main()
 {
-    
     Player player;
     Field field = Field(6,6,Coordinate(0,0),Coordinate(5,5));
     MoveManager playerContol(player,field);
@@ -16,6 +15,7 @@ int main()
         std::cout << '\n';
     }
     player.health().setValue(400);
+    field.getSquare(1,1).getCoordinate() = Coordinate(222,22);
     std::cout << "Оружие: " << player.weapon().getName() << std::endl;
     std::cout << "Расходники: " << player.item().getName() << std::endl;
     std::cout << "Характеристики: " << std::endl;

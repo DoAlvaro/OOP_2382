@@ -7,10 +7,10 @@ class Square
     Coordinate coordinate;
     public:
         Square(bool passable = true,Coordinate coordinate = Coordinate(-1,-1));
-        Square(Square& other);
+        // Square(Square& other);
         void setPassable(bool passable);
         bool getPassable();
-        Coordinate& getCoordinate();
+        Coordinate getCoordinate();
         Square& operator=(const Square& other);
 };
 #endif

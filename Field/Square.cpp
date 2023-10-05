@@ -8,13 +8,13 @@ void Square::setPassable(bool passable){
 bool Square::getPassable(){
     return this->passable;
 }
-Coordinate& Square::getCoordinate(){
+Coordinate Square::getCoordinate(){
     return this->coordinate;
 }
 
-Square::Square(Square& other): coordinate(other.coordinate){
-    this->passable = other.passable;
-}
+// Square::Square(Square& other): coordinate(other.coordinate){
+//     this->passable = other.passable;
+// }
 Square& Square::operator=(const Square& other){
     if (this == &other || coordinate.getX() >= 0){
         return *this;

@@ -9,9 +9,6 @@ int Coordinate::getX(){
 int Coordinate::getY(){
     return this->y;
 }
-// void Coordinate::operator=(Coordinate other){
-//         throw std::invalid_argument("Попытка присваивания координаты прервана\n");
-// }
 std::pair<int,int> Coordinate::getPair(){
     std::pair pair = std::make_pair(this->x,this->y);
     return pair;

@@ -15,6 +15,5 @@ class Coordinate
         int getX();
         int getY();
         std::pair<int,int> getPair();
-        // void operator=(Coordinate other);
 };
 #endif
