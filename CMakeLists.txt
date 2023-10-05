@@ -1,0 +1,2 @@
+set(CMAKE_CXX_STANDARD 17)
+add_executable(game.out main.cpp Field/Field.cpp Field/Square.cpp Characteristic/Armor.cpp Characteristic/Characteristic.cpp Move/Coordinate.cpp Characteristic/Count.cpp Move/Direction.cpp Characteristic/Health.cpp Item/Item.cpp Characteristic/Money.cpp Move/MoveManager.cpp Player.cpp Characteristic/Power.cpp Characteristic/Score.cpp Item/Weapon.cpp)

@@ -1,0 +1,3 @@
+/home/yaroslav/OOP/CMakeFiles/game.out.dir
+/home/yaroslav/OOP/CMakeFiles/edit_cache.dir
+/home/yaroslav/OOP/CMakeFiles/rebuild_cache.dir
