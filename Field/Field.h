@@ -28,5 +28,6 @@ class Field
         bool checkSize(int x,int y);
         bool checkSize(Coordinate coord);
         Coordinate& getEnd();
+        Field& operator=(const Field& other);
 };
 #endif

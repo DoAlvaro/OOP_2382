@@ -75,4 +75,23 @@ bool Field::checkSize(Coordinate coord){
     int y = coord.getY();
     return (!(x >= MIN_SIZE && x<=MAX_SIZE && y >= MIN_SIZE && y<= MAX_SIZE));
 }
-
+Field& Field::operator=(const Field& other){
+    if (this == &other){
+        return *this;
+    }
+    start = other.start;
+    end = other.start;
+    width = other.width;
+    height = other.height;
+    field = new Square*[height];
+    for (int i = 0; i < height; ++i) {
+        field[i] = new Square[width];
+    }
+    
+    for (int i = 0; i < height; ++i) {
+        for (int j = 0; j < width; ++j){
+            field[i][j] = other.field[i][j];
+            }
+        }
+    return *this;
+}

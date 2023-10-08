@@ -6,14 +6,10 @@ int main()
 {
     Player player;
     Field field = Field(6,6,Coordinate(0,0),Coordinate(5,5));
+    Field field2 = Field(8,8,Coordinate(0,0),Coordinate(5,5));
+    field = field2;
     MoveManager playerContol(player,field);
     Player player2;
-    for (int i = 0; i < field.getHeight(); i++){
-        for (int j = 0; j < field.getWidth(); j++){
-            std::cout << field.getSquare(i,j).getCoordinate().getX() << field.getSquare(i,j).getCoordinate().getY() << " ";
-        }
-        std::cout << '\n';
-    }
     player.health().setValue(400);
     field.getSquare(1,1).getCoordinate() = Coordinate(222,22);
     std::cout << "Оружие: " << player.weapon().getName() << std::endl;
@@ -24,10 +20,12 @@ int main()
     std::cout << "Броня: " << player.armor().getValue() << std::endl;
     std::cout << "Монеты: " << player.money().getValue() << std::endl;
     std::cout << "Очки: " << player.score().getValue() << std::endl;
+    std::cout << '\n';
     std::cout << "Координата: " << playerContol.coordinate().getX() << " " << playerContol.coordinate().getY() << std::endl;
     playerContol.move(Direction::up);
     std::cout << "Координата: " << playerContol.coordinate().getX() << " " << playerContol.coordinate().getY() << std::endl;
     std::cout << field.getSquare(1,1).getPassable() << "<- до\n";
+    std::cout << "А вот и наше поле:\n";
     // field.getSquare(1,1).setPassable(false);
     field.getSquare(1,1) = Square(false);
     for (int i = 0; i < field.getHeight(); i++){

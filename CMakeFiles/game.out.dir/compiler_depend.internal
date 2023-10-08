@@ -1725,6 +1725,7 @@ CMakeFiles/game.out.dir/Player.cpp.o
  /home/yaroslav/OOP/Move/MoveManager.h
  /home/yaroslav/OOP/Move/Direction.h
  /home/yaroslav/OOP/Move/Coordinate.h
+ /home/yaroslav/OOP/Player.h
  /home/yaroslav/OOP/Field/Field.h
  /home/yaroslav/OOP/Field/Square.h
  /home/yaroslav/OOP/Move/Coordinate.h
@@ -1924,6 +1925,7 @@ CMakeFiles/game.out.dir/main.cpp.o
  /home/yaroslav/OOP/Move/MoveManager.h
  /home/yaroslav/OOP/Move/Direction.h
  /home/yaroslav/OOP/Move/Coordinate.h
+ /home/yaroslav/OOP/Player.h
  /home/yaroslav/OOP/Field/Field.h
  /home/yaroslav/OOP/Field/Square.h
  /home/yaroslav/OOP/Move/Coordinate.h

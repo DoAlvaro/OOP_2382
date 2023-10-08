@@ -1710,6 +1710,7 @@ CMakeFiles/game.out.dir/Player.cpp.o: Player.cpp \
   Move/MoveManager.h \
   Move/Direction.h \
   Move/Coordinate.h \
+  Player.h \
   Field/Field.h \
   Field/Square.h \
   Move/Coordinate.h
@@ -1908,6 +1909,7 @@ CMakeFiles/game.out.dir/main.cpp.o: main.cpp \
   Move/MoveManager.h \
   Move/Direction.h \
   Move/Coordinate.h \
+  Player.h \
   Field/Field.h \
   Field/Square.h \
   Move/Coordinate.h \
