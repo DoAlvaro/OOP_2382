@@ -1,5 +1,6 @@
 #include "Square.h"
-Square::Square(bool passable, Coordinate coordinate):coordinate(coordinate){
+Square::Square(Event* event, bool passable, Coordinate coordinate):coordinate(coordinate){
+    this->event = event;
     this->passable = passable;
 }
 void Square::setPassable(bool passable){
@@ -11,15 +12,45 @@ bool Square::getPassable(){
 Coordinate Square::getCoordinate(){
     return this->coordinate;
 }
+Event* Square::getEvent(){
+    return this->event;
+}
+Square::Square(Square& other): coordinate(other.coordinate){
+    this->event = other.event;
+    this->passable = other.passable;
+}
+Square::Square(Square&& other): coordinate(Coordinate(-1,-1)),
+                                event(nullptr),
+                                passable(true){
+    std::swap(coordinate,other.coordinate);
+    std::swap(event,other.event);
+    std::swap(passable,other.passable);
+}
+Square::~Square()
+{
+     if (this->event != nullptr)
+        {
+        std::cerr<<"1";
+        delete event;
+    }
+}
 
-// Square::Square(Square& other): coordinate(other.coordinate){
-//     this->passable = other.passable;
-// }
 Square& Square::operator=(const Square& other){
     if (this == &other || coordinate.getX() >= 0){
         return *this;
         }
-    this->coordinate = other.coordinate;
-    this->passable = other.passable;
+    Square tmp(other.event,other.passable,other.coordinate);
+    std::swap(passable, tmp.passable);
+    std::swap(event, tmp.event);
+    std::swap(coordinate,tmp.coordinate);
     return *this;
 };
+Square& Square::operator=(Square &&other)
+{
+    if (this != &other) {
+        std::swap(passable, other.passable);
+        std::swap(event, other.event);
+        std::swap(coordinate,other.coordinate);
+    }
+    return *this;
+}

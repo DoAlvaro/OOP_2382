@@ -297,6 +297,102 @@ Characteristic/Score.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.out.dir/build.make CMakeFiles/game.out.dir/Characteristic/Score.cpp.s
 .PHONY : Characteristic/Score.cpp.s
 
+EventManager/Event/NoneEvent.o: EventManager/Event/NoneEvent.cpp.o
+.PHONY : EventManager/Event/NoneEvent.o
+
+# target to build an object file
+EventManager/Event/NoneEvent.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.out.dir/build.make CMakeFiles/game.out.dir/EventManager/Event/NoneEvent.cpp.o
+.PHONY : EventManager/Event/NoneEvent.cpp.o
+
+EventManager/Event/NoneEvent.i: EventManager/Event/NoneEvent.cpp.i
+.PHONY : EventManager/Event/NoneEvent.i
+
+# target to preprocess a source file
+EventManager/Event/NoneEvent.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.out.dir/build.make CMakeFiles/game.out.dir/EventManager/Event/NoneEvent.cpp.i
+.PHONY : EventManager/Event/NoneEvent.cpp.i
+
+EventManager/Event/NoneEvent.s: EventManager/Event/NoneEvent.cpp.s
+.PHONY : EventManager/Event/NoneEvent.s
+
+# target to generate assembly for a file
+EventManager/Event/NoneEvent.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.out.dir/build.make CMakeFiles/game.out.dir/EventManager/Event/NoneEvent.cpp.s
+.PHONY : EventManager/Event/NoneEvent.cpp.s
+
+EventManager/Event/TrapEvent.o: EventManager/Event/TrapEvent.cpp.o
+.PHONY : EventManager/Event/TrapEvent.o
+
+# target to build an object file
+EventManager/Event/TrapEvent.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.out.dir/build.make CMakeFiles/game.out.dir/EventManager/Event/TrapEvent.cpp.o
+.PHONY : EventManager/Event/TrapEvent.cpp.o
+
+EventManager/Event/TrapEvent.i: EventManager/Event/TrapEvent.cpp.i
+.PHONY : EventManager/Event/TrapEvent.i
+
+# target to preprocess a source file
+EventManager/Event/TrapEvent.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.out.dir/build.make CMakeFiles/game.out.dir/EventManager/Event/TrapEvent.cpp.i
+.PHONY : EventManager/Event/TrapEvent.cpp.i
+
+EventManager/Event/TrapEvent.s: EventManager/Event/TrapEvent.cpp.s
+.PHONY : EventManager/Event/TrapEvent.s
+
+# target to generate assembly for a file
+EventManager/Event/TrapEvent.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.out.dir/build.make CMakeFiles/game.out.dir/EventManager/Event/TrapEvent.cpp.s
+.PHONY : EventManager/Event/TrapEvent.cpp.s
+
+EventManager/Event/TreatEvent.o: EventManager/Event/TreatEvent.cpp.o
+.PHONY : EventManager/Event/TreatEvent.o
+
+# target to build an object file
+EventManager/Event/TreatEvent.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.out.dir/build.make CMakeFiles/game.out.dir/EventManager/Event/TreatEvent.cpp.o
+.PHONY : EventManager/Event/TreatEvent.cpp.o
+
+EventManager/Event/TreatEvent.i: EventManager/Event/TreatEvent.cpp.i
+.PHONY : EventManager/Event/TreatEvent.i
+
+# target to preprocess a source file
+EventManager/Event/TreatEvent.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.out.dir/build.make CMakeFiles/game.out.dir/EventManager/Event/TreatEvent.cpp.i
+.PHONY : EventManager/Event/TreatEvent.cpp.i
+
+EventManager/Event/TreatEvent.s: EventManager/Event/TreatEvent.cpp.s
+.PHONY : EventManager/Event/TreatEvent.s
+
+# target to generate assembly for a file
+EventManager/Event/TreatEvent.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.out.dir/build.make CMakeFiles/game.out.dir/EventManager/Event/TreatEvent.cpp.s
+.PHONY : EventManager/Event/TreatEvent.cpp.s
+
+EventManager/EventManager.o: EventManager/EventManager.cpp.o
+.PHONY : EventManager/EventManager.o
+
+# target to build an object file
+EventManager/EventManager.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.out.dir/build.make CMakeFiles/game.out.dir/EventManager/EventManager.cpp.o
+.PHONY : EventManager/EventManager.cpp.o
+
+EventManager/EventManager.i: EventManager/EventManager.cpp.i
+.PHONY : EventManager/EventManager.i
+
+# target to preprocess a source file
+EventManager/EventManager.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.out.dir/build.make CMakeFiles/game.out.dir/EventManager/EventManager.cpp.i
+.PHONY : EventManager/EventManager.cpp.i
+
+EventManager/EventManager.s: EventManager/EventManager.cpp.s
+.PHONY : EventManager/EventManager.s
+
+# target to generate assembly for a file
+EventManager/EventManager.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.out.dir/build.make CMakeFiles/game.out.dir/EventManager/EventManager.cpp.s
+.PHONY : EventManager/EventManager.cpp.s
+
 Field/Field.o: Field/Field.cpp.o
 .PHONY : Field/Field.o
 
@@ -543,6 +639,18 @@ help:
 	@echo "... Characteristic/Score.o"
 	@echo "... Characteristic/Score.i"
 	@echo "... Characteristic/Score.s"
+	@echo "... EventManager/Event/NoneEvent.o"
+	@echo "... EventManager/Event/NoneEvent.i"
+	@echo "... EventManager/Event/NoneEvent.s"
+	@echo "... EventManager/Event/TrapEvent.o"
+	@echo "... EventManager/Event/TrapEvent.i"
+	@echo "... EventManager/Event/TrapEvent.s"
+	@echo "... EventManager/Event/TreatEvent.o"
+	@echo "... EventManager/Event/TreatEvent.i"
+	@echo "... EventManager/Event/TreatEvent.s"
+	@echo "... EventManager/EventManager.o"
+	@echo "... EventManager/EventManager.i"
+	@echo "... EventManager/EventManager.s"
 	@echo "... Field/Field.o"
 	@echo "... Field/Field.i"
 	@echo "... Field/Field.s"

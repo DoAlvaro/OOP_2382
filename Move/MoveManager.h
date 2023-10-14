@@ -6,12 +6,12 @@
 #include "../Field/Field.h"
 class Player;
 class MoveManager{
-    friend Field;
     Player& player;
     Field& field;
     Coordinate player_coordinate;
     bool checkCoord(Coordinate coord);
     public:
+        Player& getPlayer();
         MoveManager(Player& player, Field& field);
         void move(Direction direction);
         Coordinate& coordinate();

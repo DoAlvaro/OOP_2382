@@ -148,4 +148,7 @@ CMakeFiles/game.out.dir/Field/Field.cpp.o: \
  /usr/include/c++/11/bits/basic_ios.tcc \
  /usr/include/c++/11/bits/ostream.tcc /usr/include/c++/11/istream \
  /usr/include/c++/11/bits/istream.tcc \
- /home/yaroslav/OOP/Field/../Move/Direction.h
+ /home/yaroslav/OOP/Field/../Move/Direction.h \
+ /home/yaroslav/OOP/Field/../EventManager/Event/Event.h \
+ /home/yaroslav/OOP/Field/../EventManager/Event/NoneEvent.h \
+ /home/yaroslav/OOP/Field/../EventManager/Event/Event.h

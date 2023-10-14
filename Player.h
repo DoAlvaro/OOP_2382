@@ -6,8 +6,8 @@
 #define MAX_ARMOR 100
 #define MAX_MONEY 10000
 #define MAX_SCORE 1000
-#include "Characteristic/Money.h"
-#include "Characteristic/Score.h"
+#include "Characteristic/Money.h" // 1
+#include "Characteristic/Score.h" // 1
 #include "Item/Weapon.h"
 #include "Item/Item.h"
 #include "Move/MoveManager.h"

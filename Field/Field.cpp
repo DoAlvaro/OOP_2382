@@ -1,4 +1,5 @@
 #include "Field.h"
+#include "../EventManager/Event/NoneEvent.h"
 #define MAX_SIZE 300
 #define MIN_SIZE 3
 
@@ -10,11 +11,13 @@ Field::Field(int height, int width, Coordinate start, Coordinate end) : start(st
     this->height = height;
     if (checkSize(height,width)){throw std::invalid_argument("Поле недопустимого размера");}
     Square** array;
+    NoneEvent *event = new NoneEvent;
     array = new Square*[height];
     for (int x = 0; x < height; x++){
         array[x] = new Square[width];
         for (int y = 0; y < width; y++){
-            array[x][y] = Square(true, Coordinate(x,y));
+            
+            array[x][y] = Square(event,true, Coordinate(x,y));
         }
     }
     
@@ -45,14 +48,14 @@ Field::Field(Field&& other): width(other.width),
 Field::~Field()
 {   
     if (this->field != nullptr)
-    {
-    for (int i = 0; i < height; i ++)
-    {
-        delete [] field[i];
-    }
-    delete [] field;
-    }
-    
+        {
+        for (int i = 0; i < height; i ++)
+        {
+            std::cerr<<"22";
+            delete [] field[i];
+        }
+        delete [] field;
+    }    
 }
 Square& Field::getSquare(int x, int y){
     return this->field[x][y];

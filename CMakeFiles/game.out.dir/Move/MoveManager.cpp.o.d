@@ -161,4 +161,5 @@ CMakeFiles/game.out.dir/Move/MoveManager.cpp.o: \
  /home/yaroslav/OOP/Move/../Move/MoveManager.h \
  /home/yaroslav/OOP/Move/../Field/Field.h \
  /home/yaroslav/OOP/Move/../Field/Square.h \
- /home/yaroslav/OOP/Move/../Field/../Move/Coordinate.h
+ /home/yaroslav/OOP/Move/../Field/../Move/Coordinate.h \
+ /home/yaroslav/OOP/Move/../Field/../EventManager/Event/Event.h

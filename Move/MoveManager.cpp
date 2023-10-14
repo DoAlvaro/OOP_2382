@@ -13,6 +13,9 @@ MoveManager::MoveManager(Player& player,Field& field) : player(player), field(fi
     }
 }
 
+Player& MoveManager::getPlayer(){
+    return this->player;
+}
 
 bool MoveManager::checkCoord(Coordinate coord){
     int x = coord.getX();
@@ -45,5 +48,9 @@ void MoveManager::move(Direction direction){
         player_coordinate.x -=x;
         player_coordinate.y -=y;
         std::cout << "Куда это ты собрался..." << '\n';
+    }
+    else{
+        
+        field.getSquare(x,y).getEvent()->start(*this);
     }
 }
