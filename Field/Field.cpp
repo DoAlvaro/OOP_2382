@@ -1,4 +1,5 @@
 #include "Field.h"
+#include <memory>
 #include "../EventManager/Event/NoneEvent.h"
 #define MAX_SIZE 300
 #define MIN_SIZE 3
@@ -47,7 +48,6 @@ Field::~Field()
         {
         for (int i = 0; i < height; i ++)
         {
-            std::cerr << "1";
             delete [] field[i];
         }
         
@@ -100,17 +100,9 @@ Field& Field::operator=(Field &&other){
         return *this;
     }
     std::swap(start, other.start);
-    std::swap(end, other.start);
+    std::swap(end, other.end);
     std::swap(width, other.width);
     std::swap(height, other.height);
-    field = std::move(other.field);
-    for (int i = 0; i < height; ++i) {
-        field[i] = std::move(other.field[i]);
-    }
-    for (int i = 0; i < height; ++i) {
-        for (int j = 0; j < width; ++j){
-            field[i][j] = std::move(other.field[i][j]);
-            }
-        }
+    std::swap(field, other.field);
     return *this;
 }
