@@ -10,7 +10,7 @@ class Square
     Event* event;
     public:
         Square(Event* event = nullptr, bool passable = true,Coordinate coordinate = Coordinate(-1,-1));
-        Square(Square& other);
+        Square(const Square& other);
         Square(Square&& other);
         ~Square();
         void setPassable(bool passable);

@@ -15,10 +15,9 @@ Coordinate Square::getCoordinate(){
 Event* Square::getEvent(){
     return this->event;
 }
-Square::Square(Square& other): coordinate(other.coordinate){
-    this->event = other.event;
-    this->passable = other.passable;
-}
+Square::Square(const Square &other) : passable{other.passable},
+      event{other.event ? other.event->clone() : nullptr},
+      coordinate(other.coordinate){}
 Square::Square(Square&& other): coordinate(Coordinate(-1,-1)),
                                 event(nullptr),
                                 passable(true){
@@ -30,7 +29,6 @@ Square::~Square()
 {
      if (this->event != nullptr)
         {
-        std::cerr<<"1";
         delete event;
     }
 }
@@ -39,7 +37,7 @@ Square& Square::operator=(const Square& other){
     if (this == &other || coordinate.getX() >= 0){
         return *this;
         }
-    Square tmp(other.event,other.passable,other.coordinate);
+    Square tmp(other);
     std::swap(passable, tmp.passable);
     std::swap(event, tmp.event);
     std::swap(coordinate,tmp.coordinate);

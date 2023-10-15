@@ -41,7 +41,7 @@ int main()
     }
     std::cout << field.getSquare(1,1).getPassable() << "<- проходимость\n";
     Field new_field = Field(field);
-    Field new_field1(std::move(field));
+    // Field new_field(std::move(field));
     TrapEvent trap = TrapEvent(200);
     TreatEvent treat = TreatEvent(1000);
     std::cout << "Очки: " << player.score().getValue() << std::endl;
