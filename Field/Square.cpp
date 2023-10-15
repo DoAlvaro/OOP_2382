@@ -29,6 +29,7 @@ Square::~Square()
 {
      if (this->event != nullptr)
         {
+        std::cerr << "2";
         delete event;
     }
 }

@@ -36,7 +36,7 @@ Field::Field(Field&& other): width(other.width),
     height(other.height),
     start(std::move(other.start)),
     end(std::move(other.end)),
-    field(other.field)
+    field(std::move(other.field))
 {
     other.field = nullptr;
 }
@@ -47,6 +47,7 @@ Field::~Field()
         {
         for (int i = 0; i < height; i ++)
         {
+            std::cerr << "1";
             delete [] field[i];
         }
         
@@ -102,13 +103,13 @@ Field& Field::operator=(Field &&other){
     std::swap(end, other.start);
     std::swap(width, other.width);
     std::swap(height, other.height);
-    field = new Square*[height];
+    field = std::move(other.field);
     for (int i = 0; i < height; ++i) {
-        field[i] = new Square[width];
+        field[i] = std::move(other.field[i]);
     }
     for (int i = 0; i < height; ++i) {
         for (int j = 0; j < width; ++j){
-            field[i][j] = other.field[i][j];
+            field[i][j] = std::move(other.field[i][j]);
             }
         }
     return *this;

@@ -10,9 +10,9 @@ int main()
 {
     Player player;
     Field field = Field(6,6,Coordinate(0,0),Coordinate(5,5));
-    // Field field2 = Field(8,8,Coordinate(0,0),Coordinate(5,5));
-    // field = field2;
-    std::cout<<"SOZDAL!";
+    Field field2 = Field(8,8,Coordinate(0,0),Coordinate(5,5));
+    field = std::move(field2);
+    // std::cout<<"SOZDAL!";
     MoveManager playerContol(player,field);
     Player player2;
     player.health().setValue(400);
@@ -40,8 +40,9 @@ int main()
         std::cout << '\n';
     }
     std::cout << field.getSquare(1,1).getPassable() << "<- проходимость\n";
-    Field new_field = Field(field);
+    // Field new_field = Field(field);
     // Field new_field(std::move(field));
+    
     TrapEvent trap = TrapEvent(200);
     TreatEvent treat = TreatEvent(1000);
     std::cout << "Очки: " << player.score().getValue() << std::endl;
