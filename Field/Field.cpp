@@ -33,8 +33,8 @@ Field::Field(Field& other): start(other.start), end(other.end){
         }
     }
 }
-Field::Field(Field&& other): width(other.width),
-    height(other.height),
+Field::Field(Field&& other): width(std::move(other.width)),
+    height(std::move(other.height)),
     start(std::move(other.start)),
     end(std::move(other.end)),
     field(std::move(other.field))
