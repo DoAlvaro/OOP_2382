@@ -14,7 +14,8 @@ class MoveManager{
         Player& getPlayer();
         MoveManager(Player& player, Field& field);
         void move(Direction direction);
+        void teleport(Coordinate coordinate);
         Coordinate& coordinate();
-        
+        void FieldView();
 };
 #endif

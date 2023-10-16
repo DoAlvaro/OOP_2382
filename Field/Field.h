@@ -29,5 +29,6 @@ class Field
         Coordinate& getEnd();
         Field& operator=(const Field& other);
         Field& operator=(Field &&other);
+        
 };
 #endif

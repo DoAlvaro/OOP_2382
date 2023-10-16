@@ -1,2 +1,13 @@
 set(CMAKE_CXX_STANDARD 17)
-add_executable(game.out main.cpp EventManager/EventManager.cpp EventManager/Event/NoneEvent.cpp EventManager/Event/TrapEvent.cpp EventManager/Event/TreatEvent.cpp Field/Field.cpp Field/Square.cpp Characteristic/Armor.cpp Characteristic/Characteristic.cpp Move/Coordinate.cpp Characteristic/Count.cpp Move/Direction.cpp Characteristic/Health.cpp Item/Item.cpp Characteristic/Money.cpp Move/MoveManager.cpp Player.cpp Characteristic/Power.cpp Characteristic/Score.cpp Item/Weapon.cpp)
+add_executable(game.out main.cpp
+ EventManager/EventManager.cpp
+  EventManager/Event/TeleportEvent.h
+   EventManager/Event/TeleportEvent.cpp
+    EventManager/Event/NoneEvent.cpp
+     EventManager/Event/TrapEvent.cpp
+      EventManager/Event/TreatEvent.cpp
+       Field/Field.cpp
+       Field/FieldCreator.cpp
+       Field/FieldCreator.h
+        Field/Square.cpp
+         Characteristic/Armor.cpp Characteristic/Characteristic.cpp Move/Coordinate.cpp Characteristic/Count.cpp Move/Direction.cpp Characteristic/Health.cpp Item/Item.cpp Characteristic/Money.cpp Move/MoveManager.cpp Player.cpp Characteristic/Power.cpp Characteristic/Score.cpp Item/Weapon.cpp)

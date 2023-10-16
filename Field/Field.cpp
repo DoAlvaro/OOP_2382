@@ -106,3 +106,19 @@ Field& Field::operator=(Field &&other){
     std::swap(field, other.field);
     return *this;
 }
+// void Field::FieldView(){
+//     for (int i = 0; i < this->getHeight(); i++){
+//         for (int j = 0; j < this->getWidth(); j++){
+//             Square square = this->getSquare(i,j);
+//             if (square.getPassable()){
+//                 std::cout << square.getCoordinate().getX() << square.getCoordinate().getY() << " ";
+//             }
+//             else{
+//                 std::cout << "##" << " ";
+//             }
+            
+//         }
+//         std::cout << '\n';
+//         std::cout << '\n';
+//     }
+// }

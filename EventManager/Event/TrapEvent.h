@@ -3,7 +3,7 @@
 #define DEFAULT_DAMAGE 100
 #include <iostream>
 #include "Event.h"
-class TrapEvent : Event{
+class TrapEvent : public Event{
     int damage;
     public:
         TrapEvent(int damage = DEFAULT_DAMAGE);

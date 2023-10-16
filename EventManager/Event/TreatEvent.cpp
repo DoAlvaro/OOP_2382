@@ -10,4 +10,5 @@ TreatEvent* TreatEvent::clone() const{
 void TreatEvent::start(MoveManager& playerControl){
     Player& player = playerControl.getPlayer();
     player.health().setValue(player.health().getValue() + this->heal);
+    player.health().isDead();
 }

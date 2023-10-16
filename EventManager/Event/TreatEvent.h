@@ -3,7 +3,7 @@
 #define DEFAULT_HEAL 100
 #include <iostream>
 #include "Event.h"
-class TreatEvent : Event{
+class TreatEvent : public Event{
     int heal;
     public:
         TreatEvent* clone() const override;

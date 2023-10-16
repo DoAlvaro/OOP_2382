@@ -321,6 +321,30 @@ EventManager/Event/NoneEvent.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.out.dir/build.make CMakeFiles/game.out.dir/EventManager/Event/NoneEvent.cpp.s
 .PHONY : EventManager/Event/NoneEvent.cpp.s
 
+EventManager/Event/TeleportEvent.o: EventManager/Event/TeleportEvent.cpp.o
+.PHONY : EventManager/Event/TeleportEvent.o
+
+# target to build an object file
+EventManager/Event/TeleportEvent.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.out.dir/build.make CMakeFiles/game.out.dir/EventManager/Event/TeleportEvent.cpp.o
+.PHONY : EventManager/Event/TeleportEvent.cpp.o
+
+EventManager/Event/TeleportEvent.i: EventManager/Event/TeleportEvent.cpp.i
+.PHONY : EventManager/Event/TeleportEvent.i
+
+# target to preprocess a source file
+EventManager/Event/TeleportEvent.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.out.dir/build.make CMakeFiles/game.out.dir/EventManager/Event/TeleportEvent.cpp.i
+.PHONY : EventManager/Event/TeleportEvent.cpp.i
+
+EventManager/Event/TeleportEvent.s: EventManager/Event/TeleportEvent.cpp.s
+.PHONY : EventManager/Event/TeleportEvent.s
+
+# target to generate assembly for a file
+EventManager/Event/TeleportEvent.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.out.dir/build.make CMakeFiles/game.out.dir/EventManager/Event/TeleportEvent.cpp.s
+.PHONY : EventManager/Event/TeleportEvent.cpp.s
+
 EventManager/Event/TrapEvent.o: EventManager/Event/TrapEvent.cpp.o
 .PHONY : EventManager/Event/TrapEvent.o
 
@@ -416,6 +440,30 @@ Field/Field.s: Field/Field.cpp.s
 Field/Field.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.out.dir/build.make CMakeFiles/game.out.dir/Field/Field.cpp.s
 .PHONY : Field/Field.cpp.s
+
+Field/FieldCreator.o: Field/FieldCreator.cpp.o
+.PHONY : Field/FieldCreator.o
+
+# target to build an object file
+Field/FieldCreator.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.out.dir/build.make CMakeFiles/game.out.dir/Field/FieldCreator.cpp.o
+.PHONY : Field/FieldCreator.cpp.o
+
+Field/FieldCreator.i: Field/FieldCreator.cpp.i
+.PHONY : Field/FieldCreator.i
+
+# target to preprocess a source file
+Field/FieldCreator.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.out.dir/build.make CMakeFiles/game.out.dir/Field/FieldCreator.cpp.i
+.PHONY : Field/FieldCreator.cpp.i
+
+Field/FieldCreator.s: Field/FieldCreator.cpp.s
+.PHONY : Field/FieldCreator.s
+
+# target to generate assembly for a file
+Field/FieldCreator.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.out.dir/build.make CMakeFiles/game.out.dir/Field/FieldCreator.cpp.s
+.PHONY : Field/FieldCreator.cpp.s
 
 Field/Square.o: Field/Square.cpp.o
 .PHONY : Field/Square.o
@@ -642,6 +690,9 @@ help:
 	@echo "... EventManager/Event/NoneEvent.o"
 	@echo "... EventManager/Event/NoneEvent.i"
 	@echo "... EventManager/Event/NoneEvent.s"
+	@echo "... EventManager/Event/TeleportEvent.o"
+	@echo "... EventManager/Event/TeleportEvent.i"
+	@echo "... EventManager/Event/TeleportEvent.s"
 	@echo "... EventManager/Event/TrapEvent.o"
 	@echo "... EventManager/Event/TrapEvent.i"
 	@echo "... EventManager/Event/TrapEvent.s"
@@ -654,6 +705,9 @@ help:
 	@echo "... Field/Field.o"
 	@echo "... Field/Field.i"
 	@echo "... Field/Field.s"
+	@echo "... Field/FieldCreator.o"
+	@echo "... Field/FieldCreator.i"
+	@echo "... Field/FieldCreator.s"
 	@echo "... Field/Square.o"
 	@echo "... Field/Square.i"
 	@echo "... Field/Square.s"

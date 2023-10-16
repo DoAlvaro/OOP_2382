@@ -1,5 +1,9 @@
-CMakeFiles/game.out.dir/main.cpp.o: /home/yaroslav/OOP/main.cpp \
- /usr/include/stdc-predef.h /usr/include/c++/11/iostream \
+CMakeFiles/game.out.dir/Field/FieldCreator.cpp.o: \
+ /home/yaroslav/OOP/Field/FieldCreator.cpp /usr/include/stdc-predef.h \
+ /home/yaroslav/OOP/Field/FieldCreator.h /home/yaroslav/OOP/Field/Field.h \
+ /home/yaroslav/OOP/Field/Square.h \
+ /home/yaroslav/OOP/Field/../Move/Coordinate.h \
+ /usr/include/c++/11/iostream \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -144,30 +148,12 @@ CMakeFiles/game.out.dir/main.cpp.o: /home/yaroslav/OOP/main.cpp \
  /usr/include/c++/11/bits/locale_facets.tcc \
  /usr/include/c++/11/bits/basic_ios.tcc \
  /usr/include/c++/11/bits/ostream.tcc /usr/include/c++/11/istream \
- /usr/include/c++/11/bits/istream.tcc /home/yaroslav/OOP/Player.h \
- /home/yaroslav/OOP/Characteristic/Money.h \
- /home/yaroslav/OOP/Characteristic/Characteristic.h \
- /home/yaroslav/OOP/Characteristic/Score.h \
- /home/yaroslav/OOP/Item/Weapon.h \
- /home/yaroslav/OOP/Item/../Characteristic/Power.h \
- /home/yaroslav/OOP/Item/../Characteristic/Characteristic.h \
- /home/yaroslav/OOP/Item/Item.h \
- /home/yaroslav/OOP/Item/../Characteristic/Health.h \
- /home/yaroslav/OOP/Item/../Characteristic/Armor.h \
- /home/yaroslav/OOP/Item/../Characteristic/Count.h \
- /home/yaroslav/OOP/Move/MoveManager.h \
- /home/yaroslav/OOP/Move/Direction.h /home/yaroslav/OOP/Move/Coordinate.h \
- /home/yaroslav/OOP/Move/../Player.h \
- /home/yaroslav/OOP/Move/../Field/Field.h \
- /home/yaroslav/OOP/Move/../Field/Square.h \
- /home/yaroslav/OOP/Move/../Field/../Move/Coordinate.h \
- /home/yaroslav/OOP/Move/../Field/../EventManager/Event/Event.h \
- /home/yaroslav/OOP/Field/Field.h \
- /home/yaroslav/OOP/EventManager/Event/Event.h \
- /home/yaroslav/OOP/EventManager/Event/NoneEvent.h \
- /home/yaroslav/OOP/EventManager/Event/Event.h \
- /home/yaroslav/OOP/EventManager/Event/TrapEvent.h \
- /home/yaroslav/OOP/EventManager/Event/TreatEvent.h \
- /home/yaroslav/OOP/EventManager/Event/TeleportEvent.h \
- /home/yaroslav/OOP/EventManager/Event/../../Move/Coordinate.h \
- /home/yaroslav/OOP/Field/FieldCreator.h /home/yaroslav/OOP/Field/Field.h
+ /usr/include/c++/11/bits/istream.tcc \
+ /home/yaroslav/OOP/Field/../Move/Direction.h \
+ /home/yaroslav/OOP/Field/../EventManager/Event/Event.h \
+ /home/yaroslav/OOP/Field/../EventManager/Event/NoneEvent.h \
+ /home/yaroslav/OOP/Field/../EventManager/Event/Event.h \
+ /home/yaroslav/OOP/Field/../EventManager/Event/TrapEvent.h \
+ /home/yaroslav/OOP/Field/../EventManager/Event/TreatEvent.h \
+ /home/yaroslav/OOP/Field/../EventManager/Event/TeleportEvent.h \
+ /home/yaroslav/OOP/Field/../EventManager/Event/../../Move/Coordinate.h
