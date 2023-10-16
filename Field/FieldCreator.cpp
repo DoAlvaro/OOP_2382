@@ -37,6 +37,9 @@ Field FieldCreator::creat_field_for_level_1(){
     std::swap(new_field.getSquare(0,1).event,tp);
     std::swap(new_field.getSquare(3,4).event,trap);
     std::swap(new_field.getSquare(7,8).event,treat);
+    delete tp;
+    delete trap;
+    delete treat;
     return new_field;
 }
 Field FieldCreator::creat_field_for_level_2(){
@@ -49,5 +52,7 @@ Field FieldCreator::creat_field_for_level_2(){
     Event* treat = new TreatEvent(10000);
     std::swap(new_field.getSquare(3,4).event,trap);
     std::swap(new_field.getSquare(7,8).event,treat);
+    delete trap;
+    delete treat;
     return new_field;
 }
