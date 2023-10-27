@@ -12,7 +12,7 @@ int main()
     Player player;
     // Field field = Field(6,6,Coordinate(0,0),Coordinate(5,5));
     // Field field2 = Field(8,8,Coordinate(0,0),Coordinate(5,5));
-    Field field = FieldCreator().creat_field_for_level(2);
+    Field field = FieldCreator().creat_field_for_level(1);
     // std::cout<<"SOZDAL!";
     MoveManager playerContol(player,field);
     Player player2;

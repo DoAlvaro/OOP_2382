@@ -43,6 +43,7 @@ Square& Square::operator=(const Square& other){
     std::swap(coordinate,tmp.coordinate);
     return *this;
 };
+\
 Square& Square::operator=(Square &&other)
 {
     if (this != &other) {
