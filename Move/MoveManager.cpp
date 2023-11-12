@@ -30,19 +30,19 @@ void MoveManager::move(Direction direction){
     
     int x = 0,y = 0;
             switch (direction){
-                case Direction::right:
+                case Direction::left:
                     player_coordinate.x += 1;
                     x+=1;
                     break;
-                case Direction::left:
+                case Direction::right:
                     this->player_coordinate.x -= 1;
                     x-=1;
                     break;
-                case Direction::up:
+                case Direction::down:
                     this->player_coordinate.y += 1;
                     y+=1;
                     break;
-                case Direction::down:
+                case Direction::up:
 
                     this->player_coordinate.y -= 1;
                     y-=1;

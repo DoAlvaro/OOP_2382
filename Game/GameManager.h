@@ -5,7 +5,13 @@
 #include "../Field/FieldCreator.h"
 #include "../Input/Input.h"
 #include <ncurses.h>
-
+#include <unistd.h>
+#include <termios.h>
+#include <fstream>
+#include <iostream>
+#include <map>
+#include <fstream>
+#include <algorithm>
 class GameManager{
     int level;
     void start_level_1();

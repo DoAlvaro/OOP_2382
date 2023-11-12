@@ -1,4 +1,6 @@
 #include "GameManager.h"
+#include <set>
+#include <iostream>
 void GameManager::chooseLevel(int level){
     this->level = level;
 }
@@ -73,29 +75,31 @@ void GameManager::endLevel(bool win){
 void GameManager::controller(MoveManager& playerControl){
     char dir;
     bool win;
-    playerControl.FieldView();
     
     Input input;
-    while (dir != 'q') {
-        std::cin >> dir;
-        switch (dir) {
-            case 's':
+    std::map<std::string, char> dictionary = input.read_dictionary("input.txt");
+    if (dictionary.size() == 0) {
+        throw(std::invalid_argument("Команды в файле указаны некорректно"));
+    }
+    playerControl.FieldView();
+    while (dir != dictionary["quit"]) {
+        dir = input._getch();
+        if (dir == dictionary["up"]){
                 playerControl.move(Direction::up);
                 playerControl.FieldView();
-                break;
-            case 'w':
+        }
+        if (dir == dictionary["down"]){
                 playerControl.move(Direction::down);
                 
                 playerControl.FieldView();
-                break;
-            case 'a':
+        }
+        if (dir == dictionary["left"]){
                 playerControl.move(Direction::left);
                 playerControl.FieldView();
-                break;
-            case 'd':
+        }
+        if (dir == dictionary["right"]){
                 playerControl.move(Direction::right);
                 playerControl.FieldView();
-                break;
         }
         if (isLose(playerControl)){
             win = false;
