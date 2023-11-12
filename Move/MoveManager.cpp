@@ -16,7 +16,9 @@ MoveManager::MoveManager(Player& player,Field& field) : player(player), field(fi
 Player& MoveManager::getPlayer(){
     return this->player;
 }
-
+Field& MoveManager::getField(){
+    return this->field;
+}
 bool MoveManager::checkCoord(Coordinate coord){
     int x = coord.getX();
     int y = coord.getY();

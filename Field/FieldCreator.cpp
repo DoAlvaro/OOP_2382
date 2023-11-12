@@ -6,20 +6,20 @@
 #include "../EventManager/Event/TreatEvent.h"
 #include "../EventManager/Event/TeleportEvent.h"
 FieldCreator::FieldCreator() = default;
-Field FieldCreator::creat_field_for_level(int level){
+Field FieldCreator::create_field_for_level(int level){
     switch (level)
     {
     case 1:
-        return creat_field_for_level_1();
+        return create_field_for_level_1();
         break;
     case 2:
-        return creat_field_for_level_2();
+        return create_field_for_level_2();
         break;
     default:
         throw std::invalid_argument("Нет такого лвла");
     }
 }
-Field FieldCreator::creat_field_for_level_1(){
+Field FieldCreator::create_field_for_level_1(){
     int height = 10;
     int width = 10;
     Coordinate start = Coordinate(0,0);
@@ -42,7 +42,7 @@ Field FieldCreator::creat_field_for_level_1(){
     delete treat;
     return new_field;
 }
-Field FieldCreator::creat_field_for_level_2(){
+Field FieldCreator::create_field_for_level_2(){
     int height = 10;
     int width = 10;
     Coordinate start = Coordinate(0,0);

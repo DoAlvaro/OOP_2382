@@ -13,3 +13,6 @@ std::pair<int,int> Coordinate::getPair(){
     std::pair pair = std::make_pair(this->x,this->y);
     return pair;
 }
+bool Coordinate::operator==(const Coordinate& other) const{
+    return ((this->x == other.x) && (this->y == other.y));
+}

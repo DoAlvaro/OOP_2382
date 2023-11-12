@@ -12,7 +12,8 @@ class MoveManager{
     bool checkCoord(Coordinate coord);
     public:
         Player& getPlayer();
-        MoveManager(Player& player, Field& field);
+        Field& getField();
+        explicit MoveManager(Player& player, Field& field) ;
         void move(Direction direction);
         void teleport(Coordinate coordinate);
         Coordinate& coordinate();

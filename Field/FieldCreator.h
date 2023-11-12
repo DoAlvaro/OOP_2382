@@ -2,10 +2,10 @@
 #define FieldCreator_h
 #include "Field.h"
 class FieldCreator{
-    Field creat_field_for_level_1();
-    Field creat_field_for_level_2();
+    Field create_field_for_level_1();
+    Field create_field_for_level_2();
     public:
         FieldCreator();
-        Field creat_field_for_level(int level);
+        Field create_field_for_level(int level);
 };
 #endif

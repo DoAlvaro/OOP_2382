@@ -129,533 +129,365 @@ game.out/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.out.dir/build.make CMakeFiles/game.out.dir/build
 .PHONY : game.out/fast
 
-Characteristic/Armor.o: Characteristic/Armor.cpp.o
+# target to build an object file
+Characteristic/Armor.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.out.dir/build.make CMakeFiles/game.out.dir/Characteristic/Armor.o
 .PHONY : Characteristic/Armor.o
 
-# target to build an object file
-Characteristic/Armor.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.out.dir/build.make CMakeFiles/game.out.dir/Characteristic/Armor.cpp.o
-.PHONY : Characteristic/Armor.cpp.o
-
-Characteristic/Armor.i: Characteristic/Armor.cpp.i
+# target to preprocess a source file
+Characteristic/Armor.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.out.dir/build.make CMakeFiles/game.out.dir/Characteristic/Armor.i
 .PHONY : Characteristic/Armor.i
 
-# target to preprocess a source file
-Characteristic/Armor.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.out.dir/build.make CMakeFiles/game.out.dir/Characteristic/Armor.cpp.i
-.PHONY : Characteristic/Armor.cpp.i
-
-Characteristic/Armor.s: Characteristic/Armor.cpp.s
+# target to generate assembly for a file
+Characteristic/Armor.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.out.dir/build.make CMakeFiles/game.out.dir/Characteristic/Armor.s
 .PHONY : Characteristic/Armor.s
 
-# target to generate assembly for a file
-Characteristic/Armor.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.out.dir/build.make CMakeFiles/game.out.dir/Characteristic/Armor.cpp.s
-.PHONY : Characteristic/Armor.cpp.s
-
-Characteristic/Characteristic.o: Characteristic/Characteristic.cpp.o
+# target to build an object file
+Characteristic/Characteristic.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.out.dir/build.make CMakeFiles/game.out.dir/Characteristic/Characteristic.o
 .PHONY : Characteristic/Characteristic.o
 
-# target to build an object file
-Characteristic/Characteristic.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.out.dir/build.make CMakeFiles/game.out.dir/Characteristic/Characteristic.cpp.o
-.PHONY : Characteristic/Characteristic.cpp.o
-
-Characteristic/Characteristic.i: Characteristic/Characteristic.cpp.i
+# target to preprocess a source file
+Characteristic/Characteristic.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.out.dir/build.make CMakeFiles/game.out.dir/Characteristic/Characteristic.i
 .PHONY : Characteristic/Characteristic.i
 
-# target to preprocess a source file
-Characteristic/Characteristic.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.out.dir/build.make CMakeFiles/game.out.dir/Characteristic/Characteristic.cpp.i
-.PHONY : Characteristic/Characteristic.cpp.i
-
-Characteristic/Characteristic.s: Characteristic/Characteristic.cpp.s
+# target to generate assembly for a file
+Characteristic/Characteristic.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.out.dir/build.make CMakeFiles/game.out.dir/Characteristic/Characteristic.s
 .PHONY : Characteristic/Characteristic.s
 
-# target to generate assembly for a file
-Characteristic/Characteristic.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.out.dir/build.make CMakeFiles/game.out.dir/Characteristic/Characteristic.cpp.s
-.PHONY : Characteristic/Characteristic.cpp.s
-
-Characteristic/Count.o: Characteristic/Count.cpp.o
+# target to build an object file
+Characteristic/Count.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.out.dir/build.make CMakeFiles/game.out.dir/Characteristic/Count.o
 .PHONY : Characteristic/Count.o
 
-# target to build an object file
-Characteristic/Count.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.out.dir/build.make CMakeFiles/game.out.dir/Characteristic/Count.cpp.o
-.PHONY : Characteristic/Count.cpp.o
-
-Characteristic/Count.i: Characteristic/Count.cpp.i
+# target to preprocess a source file
+Characteristic/Count.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.out.dir/build.make CMakeFiles/game.out.dir/Characteristic/Count.i
 .PHONY : Characteristic/Count.i
 
-# target to preprocess a source file
-Characteristic/Count.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.out.dir/build.make CMakeFiles/game.out.dir/Characteristic/Count.cpp.i
-.PHONY : Characteristic/Count.cpp.i
-
-Characteristic/Count.s: Characteristic/Count.cpp.s
+# target to generate assembly for a file
+Characteristic/Count.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.out.dir/build.make CMakeFiles/game.out.dir/Characteristic/Count.s
 .PHONY : Characteristic/Count.s
 
-# target to generate assembly for a file
-Characteristic/Count.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.out.dir/build.make CMakeFiles/game.out.dir/Characteristic/Count.cpp.s
-.PHONY : Characteristic/Count.cpp.s
-
-Characteristic/Health.o: Characteristic/Health.cpp.o
+# target to build an object file
+Characteristic/Health.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.out.dir/build.make CMakeFiles/game.out.dir/Characteristic/Health.o
 .PHONY : Characteristic/Health.o
 
-# target to build an object file
-Characteristic/Health.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.out.dir/build.make CMakeFiles/game.out.dir/Characteristic/Health.cpp.o
-.PHONY : Characteristic/Health.cpp.o
-
-Characteristic/Health.i: Characteristic/Health.cpp.i
+# target to preprocess a source file
+Characteristic/Health.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.out.dir/build.make CMakeFiles/game.out.dir/Characteristic/Health.i
 .PHONY : Characteristic/Health.i
 
-# target to preprocess a source file
-Characteristic/Health.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.out.dir/build.make CMakeFiles/game.out.dir/Characteristic/Health.cpp.i
-.PHONY : Characteristic/Health.cpp.i
-
-Characteristic/Health.s: Characteristic/Health.cpp.s
+# target to generate assembly for a file
+Characteristic/Health.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.out.dir/build.make CMakeFiles/game.out.dir/Characteristic/Health.s
 .PHONY : Characteristic/Health.s
 
-# target to generate assembly for a file
-Characteristic/Health.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.out.dir/build.make CMakeFiles/game.out.dir/Characteristic/Health.cpp.s
-.PHONY : Characteristic/Health.cpp.s
-
-Characteristic/Money.o: Characteristic/Money.cpp.o
+# target to build an object file
+Characteristic/Money.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.out.dir/build.make CMakeFiles/game.out.dir/Characteristic/Money.o
 .PHONY : Characteristic/Money.o
 
-# target to build an object file
-Characteristic/Money.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.out.dir/build.make CMakeFiles/game.out.dir/Characteristic/Money.cpp.o
-.PHONY : Characteristic/Money.cpp.o
-
-Characteristic/Money.i: Characteristic/Money.cpp.i
+# target to preprocess a source file
+Characteristic/Money.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.out.dir/build.make CMakeFiles/game.out.dir/Characteristic/Money.i
 .PHONY : Characteristic/Money.i
 
-# target to preprocess a source file
-Characteristic/Money.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.out.dir/build.make CMakeFiles/game.out.dir/Characteristic/Money.cpp.i
-.PHONY : Characteristic/Money.cpp.i
-
-Characteristic/Money.s: Characteristic/Money.cpp.s
+# target to generate assembly for a file
+Characteristic/Money.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.out.dir/build.make CMakeFiles/game.out.dir/Characteristic/Money.s
 .PHONY : Characteristic/Money.s
 
-# target to generate assembly for a file
-Characteristic/Money.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.out.dir/build.make CMakeFiles/game.out.dir/Characteristic/Money.cpp.s
-.PHONY : Characteristic/Money.cpp.s
-
-Characteristic/Power.o: Characteristic/Power.cpp.o
+# target to build an object file
+Characteristic/Power.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.out.dir/build.make CMakeFiles/game.out.dir/Characteristic/Power.o
 .PHONY : Characteristic/Power.o
 
-# target to build an object file
-Characteristic/Power.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.out.dir/build.make CMakeFiles/game.out.dir/Characteristic/Power.cpp.o
-.PHONY : Characteristic/Power.cpp.o
-
-Characteristic/Power.i: Characteristic/Power.cpp.i
+# target to preprocess a source file
+Characteristic/Power.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.out.dir/build.make CMakeFiles/game.out.dir/Characteristic/Power.i
 .PHONY : Characteristic/Power.i
 
-# target to preprocess a source file
-Characteristic/Power.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.out.dir/build.make CMakeFiles/game.out.dir/Characteristic/Power.cpp.i
-.PHONY : Characteristic/Power.cpp.i
-
-Characteristic/Power.s: Characteristic/Power.cpp.s
+# target to generate assembly for a file
+Characteristic/Power.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.out.dir/build.make CMakeFiles/game.out.dir/Characteristic/Power.s
 .PHONY : Characteristic/Power.s
 
-# target to generate assembly for a file
-Characteristic/Power.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.out.dir/build.make CMakeFiles/game.out.dir/Characteristic/Power.cpp.s
-.PHONY : Characteristic/Power.cpp.s
-
-Characteristic/Score.o: Characteristic/Score.cpp.o
+# target to build an object file
+Characteristic/Score.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.out.dir/build.make CMakeFiles/game.out.dir/Characteristic/Score.o
 .PHONY : Characteristic/Score.o
 
-# target to build an object file
-Characteristic/Score.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.out.dir/build.make CMakeFiles/game.out.dir/Characteristic/Score.cpp.o
-.PHONY : Characteristic/Score.cpp.o
-
-Characteristic/Score.i: Characteristic/Score.cpp.i
+# target to preprocess a source file
+Characteristic/Score.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.out.dir/build.make CMakeFiles/game.out.dir/Characteristic/Score.i
 .PHONY : Characteristic/Score.i
 
-# target to preprocess a source file
-Characteristic/Score.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.out.dir/build.make CMakeFiles/game.out.dir/Characteristic/Score.cpp.i
-.PHONY : Characteristic/Score.cpp.i
-
-Characteristic/Score.s: Characteristic/Score.cpp.s
+# target to generate assembly for a file
+Characteristic/Score.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.out.dir/build.make CMakeFiles/game.out.dir/Characteristic/Score.s
 .PHONY : Characteristic/Score.s
 
-# target to generate assembly for a file
-Characteristic/Score.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.out.dir/build.make CMakeFiles/game.out.dir/Characteristic/Score.cpp.s
-.PHONY : Characteristic/Score.cpp.s
-
-EventManager/Event/NoneEvent.o: EventManager/Event/NoneEvent.cpp.o
+# target to build an object file
+EventManager/Event/NoneEvent.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.out.dir/build.make CMakeFiles/game.out.dir/EventManager/Event/NoneEvent.o
 .PHONY : EventManager/Event/NoneEvent.o
 
-# target to build an object file
-EventManager/Event/NoneEvent.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.out.dir/build.make CMakeFiles/game.out.dir/EventManager/Event/NoneEvent.cpp.o
-.PHONY : EventManager/Event/NoneEvent.cpp.o
-
-EventManager/Event/NoneEvent.i: EventManager/Event/NoneEvent.cpp.i
+# target to preprocess a source file
+EventManager/Event/NoneEvent.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.out.dir/build.make CMakeFiles/game.out.dir/EventManager/Event/NoneEvent.i
 .PHONY : EventManager/Event/NoneEvent.i
 
-# target to preprocess a source file
-EventManager/Event/NoneEvent.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.out.dir/build.make CMakeFiles/game.out.dir/EventManager/Event/NoneEvent.cpp.i
-.PHONY : EventManager/Event/NoneEvent.cpp.i
-
-EventManager/Event/NoneEvent.s: EventManager/Event/NoneEvent.cpp.s
+# target to generate assembly for a file
+EventManager/Event/NoneEvent.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.out.dir/build.make CMakeFiles/game.out.dir/EventManager/Event/NoneEvent.s
 .PHONY : EventManager/Event/NoneEvent.s
 
-# target to generate assembly for a file
-EventManager/Event/NoneEvent.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.out.dir/build.make CMakeFiles/game.out.dir/EventManager/Event/NoneEvent.cpp.s
-.PHONY : EventManager/Event/NoneEvent.cpp.s
-
-EventManager/Event/TeleportEvent.o: EventManager/Event/TeleportEvent.cpp.o
+# target to build an object file
+EventManager/Event/TeleportEvent.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.out.dir/build.make CMakeFiles/game.out.dir/EventManager/Event/TeleportEvent.o
 .PHONY : EventManager/Event/TeleportEvent.o
 
-# target to build an object file
-EventManager/Event/TeleportEvent.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.out.dir/build.make CMakeFiles/game.out.dir/EventManager/Event/TeleportEvent.cpp.o
-.PHONY : EventManager/Event/TeleportEvent.cpp.o
-
-EventManager/Event/TeleportEvent.i: EventManager/Event/TeleportEvent.cpp.i
+# target to preprocess a source file
+EventManager/Event/TeleportEvent.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.out.dir/build.make CMakeFiles/game.out.dir/EventManager/Event/TeleportEvent.i
 .PHONY : EventManager/Event/TeleportEvent.i
 
-# target to preprocess a source file
-EventManager/Event/TeleportEvent.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.out.dir/build.make CMakeFiles/game.out.dir/EventManager/Event/TeleportEvent.cpp.i
-.PHONY : EventManager/Event/TeleportEvent.cpp.i
-
-EventManager/Event/TeleportEvent.s: EventManager/Event/TeleportEvent.cpp.s
+# target to generate assembly for a file
+EventManager/Event/TeleportEvent.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.out.dir/build.make CMakeFiles/game.out.dir/EventManager/Event/TeleportEvent.s
 .PHONY : EventManager/Event/TeleportEvent.s
 
-# target to generate assembly for a file
-EventManager/Event/TeleportEvent.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.out.dir/build.make CMakeFiles/game.out.dir/EventManager/Event/TeleportEvent.cpp.s
-.PHONY : EventManager/Event/TeleportEvent.cpp.s
-
-EventManager/Event/TrapEvent.o: EventManager/Event/TrapEvent.cpp.o
+# target to build an object file
+EventManager/Event/TrapEvent.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.out.dir/build.make CMakeFiles/game.out.dir/EventManager/Event/TrapEvent.o
 .PHONY : EventManager/Event/TrapEvent.o
 
-# target to build an object file
-EventManager/Event/TrapEvent.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.out.dir/build.make CMakeFiles/game.out.dir/EventManager/Event/TrapEvent.cpp.o
-.PHONY : EventManager/Event/TrapEvent.cpp.o
-
-EventManager/Event/TrapEvent.i: EventManager/Event/TrapEvent.cpp.i
+# target to preprocess a source file
+EventManager/Event/TrapEvent.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.out.dir/build.make CMakeFiles/game.out.dir/EventManager/Event/TrapEvent.i
 .PHONY : EventManager/Event/TrapEvent.i
 
-# target to preprocess a source file
-EventManager/Event/TrapEvent.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.out.dir/build.make CMakeFiles/game.out.dir/EventManager/Event/TrapEvent.cpp.i
-.PHONY : EventManager/Event/TrapEvent.cpp.i
-
-EventManager/Event/TrapEvent.s: EventManager/Event/TrapEvent.cpp.s
+# target to generate assembly for a file
+EventManager/Event/TrapEvent.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.out.dir/build.make CMakeFiles/game.out.dir/EventManager/Event/TrapEvent.s
 .PHONY : EventManager/Event/TrapEvent.s
 
-# target to generate assembly for a file
-EventManager/Event/TrapEvent.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.out.dir/build.make CMakeFiles/game.out.dir/EventManager/Event/TrapEvent.cpp.s
-.PHONY : EventManager/Event/TrapEvent.cpp.s
-
-EventManager/Event/TreatEvent.o: EventManager/Event/TreatEvent.cpp.o
+# target to build an object file
+EventManager/Event/TreatEvent.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.out.dir/build.make CMakeFiles/game.out.dir/EventManager/Event/TreatEvent.o
 .PHONY : EventManager/Event/TreatEvent.o
 
-# target to build an object file
-EventManager/Event/TreatEvent.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.out.dir/build.make CMakeFiles/game.out.dir/EventManager/Event/TreatEvent.cpp.o
-.PHONY : EventManager/Event/TreatEvent.cpp.o
-
-EventManager/Event/TreatEvent.i: EventManager/Event/TreatEvent.cpp.i
+# target to preprocess a source file
+EventManager/Event/TreatEvent.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.out.dir/build.make CMakeFiles/game.out.dir/EventManager/Event/TreatEvent.i
 .PHONY : EventManager/Event/TreatEvent.i
 
-# target to preprocess a source file
-EventManager/Event/TreatEvent.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.out.dir/build.make CMakeFiles/game.out.dir/EventManager/Event/TreatEvent.cpp.i
-.PHONY : EventManager/Event/TreatEvent.cpp.i
-
-EventManager/Event/TreatEvent.s: EventManager/Event/TreatEvent.cpp.s
+# target to generate assembly for a file
+EventManager/Event/TreatEvent.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.out.dir/build.make CMakeFiles/game.out.dir/EventManager/Event/TreatEvent.s
 .PHONY : EventManager/Event/TreatEvent.s
 
-# target to generate assembly for a file
-EventManager/Event/TreatEvent.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.out.dir/build.make CMakeFiles/game.out.dir/EventManager/Event/TreatEvent.cpp.s
-.PHONY : EventManager/Event/TreatEvent.cpp.s
-
-EventManager/EventManager.o: EventManager/EventManager.cpp.o
+# target to build an object file
+EventManager/EventManager.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.out.dir/build.make CMakeFiles/game.out.dir/EventManager/EventManager.o
 .PHONY : EventManager/EventManager.o
 
-# target to build an object file
-EventManager/EventManager.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.out.dir/build.make CMakeFiles/game.out.dir/EventManager/EventManager.cpp.o
-.PHONY : EventManager/EventManager.cpp.o
-
-EventManager/EventManager.i: EventManager/EventManager.cpp.i
+# target to preprocess a source file
+EventManager/EventManager.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.out.dir/build.make CMakeFiles/game.out.dir/EventManager/EventManager.i
 .PHONY : EventManager/EventManager.i
 
-# target to preprocess a source file
-EventManager/EventManager.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.out.dir/build.make CMakeFiles/game.out.dir/EventManager/EventManager.cpp.i
-.PHONY : EventManager/EventManager.cpp.i
-
-EventManager/EventManager.s: EventManager/EventManager.cpp.s
+# target to generate assembly for a file
+EventManager/EventManager.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.out.dir/build.make CMakeFiles/game.out.dir/EventManager/EventManager.s
 .PHONY : EventManager/EventManager.s
 
-# target to generate assembly for a file
-EventManager/EventManager.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.out.dir/build.make CMakeFiles/game.out.dir/EventManager/EventManager.cpp.s
-.PHONY : EventManager/EventManager.cpp.s
-
-Field/Field.o: Field/Field.cpp.o
+# target to build an object file
+Field/Field.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.out.dir/build.make CMakeFiles/game.out.dir/Field/Field.o
 .PHONY : Field/Field.o
 
-# target to build an object file
-Field/Field.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.out.dir/build.make CMakeFiles/game.out.dir/Field/Field.cpp.o
-.PHONY : Field/Field.cpp.o
-
-Field/Field.i: Field/Field.cpp.i
+# target to preprocess a source file
+Field/Field.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.out.dir/build.make CMakeFiles/game.out.dir/Field/Field.i
 .PHONY : Field/Field.i
 
-# target to preprocess a source file
-Field/Field.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.out.dir/build.make CMakeFiles/game.out.dir/Field/Field.cpp.i
-.PHONY : Field/Field.cpp.i
-
-Field/Field.s: Field/Field.cpp.s
+# target to generate assembly for a file
+Field/Field.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.out.dir/build.make CMakeFiles/game.out.dir/Field/Field.s
 .PHONY : Field/Field.s
 
-# target to generate assembly for a file
-Field/Field.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.out.dir/build.make CMakeFiles/game.out.dir/Field/Field.cpp.s
-.PHONY : Field/Field.cpp.s
-
-Field/FieldCreator.o: Field/FieldCreator.cpp.o
+# target to build an object file
+Field/FieldCreator.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.out.dir/build.make CMakeFiles/game.out.dir/Field/FieldCreator.o
 .PHONY : Field/FieldCreator.o
 
-# target to build an object file
-Field/FieldCreator.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.out.dir/build.make CMakeFiles/game.out.dir/Field/FieldCreator.cpp.o
-.PHONY : Field/FieldCreator.cpp.o
-
-Field/FieldCreator.i: Field/FieldCreator.cpp.i
+# target to preprocess a source file
+Field/FieldCreator.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.out.dir/build.make CMakeFiles/game.out.dir/Field/FieldCreator.i
 .PHONY : Field/FieldCreator.i
 
-# target to preprocess a source file
-Field/FieldCreator.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.out.dir/build.make CMakeFiles/game.out.dir/Field/FieldCreator.cpp.i
-.PHONY : Field/FieldCreator.cpp.i
-
-Field/FieldCreator.s: Field/FieldCreator.cpp.s
+# target to generate assembly for a file
+Field/FieldCreator.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.out.dir/build.make CMakeFiles/game.out.dir/Field/FieldCreator.s
 .PHONY : Field/FieldCreator.s
 
-# target to generate assembly for a file
-Field/FieldCreator.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.out.dir/build.make CMakeFiles/game.out.dir/Field/FieldCreator.cpp.s
-.PHONY : Field/FieldCreator.cpp.s
-
-Field/Square.o: Field/Square.cpp.o
+# target to build an object file
+Field/Square.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.out.dir/build.make CMakeFiles/game.out.dir/Field/Square.o
 .PHONY : Field/Square.o
 
-# target to build an object file
-Field/Square.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.out.dir/build.make CMakeFiles/game.out.dir/Field/Square.cpp.o
-.PHONY : Field/Square.cpp.o
-
-Field/Square.i: Field/Square.cpp.i
+# target to preprocess a source file
+Field/Square.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.out.dir/build.make CMakeFiles/game.out.dir/Field/Square.i
 .PHONY : Field/Square.i
 
-# target to preprocess a source file
-Field/Square.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.out.dir/build.make CMakeFiles/game.out.dir/Field/Square.cpp.i
-.PHONY : Field/Square.cpp.i
-
-Field/Square.s: Field/Square.cpp.s
+# target to generate assembly for a file
+Field/Square.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.out.dir/build.make CMakeFiles/game.out.dir/Field/Square.s
 .PHONY : Field/Square.s
 
-# target to generate assembly for a file
-Field/Square.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.out.dir/build.make CMakeFiles/game.out.dir/Field/Square.cpp.s
-.PHONY : Field/Square.cpp.s
+# target to build an object file
+Game/GameManager.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.out.dir/build.make CMakeFiles/game.out.dir/Game/GameManager.o
+.PHONY : Game/GameManager.o
 
-Item/Item.o: Item/Item.cpp.o
+# target to preprocess a source file
+Game/GameManager.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.out.dir/build.make CMakeFiles/game.out.dir/Game/GameManager.i
+.PHONY : Game/GameManager.i
+
+# target to generate assembly for a file
+Game/GameManager.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.out.dir/build.make CMakeFiles/game.out.dir/Game/GameManager.s
+.PHONY : Game/GameManager.s
+
+# target to build an object file
+Input/Input.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.out.dir/build.make CMakeFiles/game.out.dir/Input/Input.o
+.PHONY : Input/Input.o
+
+# target to preprocess a source file
+Input/Input.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.out.dir/build.make CMakeFiles/game.out.dir/Input/Input.i
+.PHONY : Input/Input.i
+
+# target to generate assembly for a file
+Input/Input.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.out.dir/build.make CMakeFiles/game.out.dir/Input/Input.s
+.PHONY : Input/Input.s
+
+# target to build an object file
+Item/Item.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.out.dir/build.make CMakeFiles/game.out.dir/Item/Item.o
 .PHONY : Item/Item.o
 
-# target to build an object file
-Item/Item.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.out.dir/build.make CMakeFiles/game.out.dir/Item/Item.cpp.o
-.PHONY : Item/Item.cpp.o
-
-Item/Item.i: Item/Item.cpp.i
+# target to preprocess a source file
+Item/Item.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.out.dir/build.make CMakeFiles/game.out.dir/Item/Item.i
 .PHONY : Item/Item.i
 
-# target to preprocess a source file
-Item/Item.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.out.dir/build.make CMakeFiles/game.out.dir/Item/Item.cpp.i
-.PHONY : Item/Item.cpp.i
-
-Item/Item.s: Item/Item.cpp.s
+# target to generate assembly for a file
+Item/Item.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.out.dir/build.make CMakeFiles/game.out.dir/Item/Item.s
 .PHONY : Item/Item.s
 
-# target to generate assembly for a file
-Item/Item.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.out.dir/build.make CMakeFiles/game.out.dir/Item/Item.cpp.s
-.PHONY : Item/Item.cpp.s
-
-Item/Weapon.o: Item/Weapon.cpp.o
+# target to build an object file
+Item/Weapon.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.out.dir/build.make CMakeFiles/game.out.dir/Item/Weapon.o
 .PHONY : Item/Weapon.o
 
-# target to build an object file
-Item/Weapon.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.out.dir/build.make CMakeFiles/game.out.dir/Item/Weapon.cpp.o
-.PHONY : Item/Weapon.cpp.o
-
-Item/Weapon.i: Item/Weapon.cpp.i
+# target to preprocess a source file
+Item/Weapon.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.out.dir/build.make CMakeFiles/game.out.dir/Item/Weapon.i
 .PHONY : Item/Weapon.i
 
-# target to preprocess a source file
-Item/Weapon.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.out.dir/build.make CMakeFiles/game.out.dir/Item/Weapon.cpp.i
-.PHONY : Item/Weapon.cpp.i
-
-Item/Weapon.s: Item/Weapon.cpp.s
+# target to generate assembly for a file
+Item/Weapon.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.out.dir/build.make CMakeFiles/game.out.dir/Item/Weapon.s
 .PHONY : Item/Weapon.s
 
-# target to generate assembly for a file
-Item/Weapon.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.out.dir/build.make CMakeFiles/game.out.dir/Item/Weapon.cpp.s
-.PHONY : Item/Weapon.cpp.s
-
-Move/Coordinate.o: Move/Coordinate.cpp.o
+# target to build an object file
+Move/Coordinate.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.out.dir/build.make CMakeFiles/game.out.dir/Move/Coordinate.o
 .PHONY : Move/Coordinate.o
 
-# target to build an object file
-Move/Coordinate.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.out.dir/build.make CMakeFiles/game.out.dir/Move/Coordinate.cpp.o
-.PHONY : Move/Coordinate.cpp.o
-
-Move/Coordinate.i: Move/Coordinate.cpp.i
+# target to preprocess a source file
+Move/Coordinate.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.out.dir/build.make CMakeFiles/game.out.dir/Move/Coordinate.i
 .PHONY : Move/Coordinate.i
 
-# target to preprocess a source file
-Move/Coordinate.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.out.dir/build.make CMakeFiles/game.out.dir/Move/Coordinate.cpp.i
-.PHONY : Move/Coordinate.cpp.i
-
-Move/Coordinate.s: Move/Coordinate.cpp.s
+# target to generate assembly for a file
+Move/Coordinate.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.out.dir/build.make CMakeFiles/game.out.dir/Move/Coordinate.s
 .PHONY : Move/Coordinate.s
 
-# target to generate assembly for a file
-Move/Coordinate.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.out.dir/build.make CMakeFiles/game.out.dir/Move/Coordinate.cpp.s
-.PHONY : Move/Coordinate.cpp.s
-
-Move/Direction.o: Move/Direction.cpp.o
+# target to build an object file
+Move/Direction.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.out.dir/build.make CMakeFiles/game.out.dir/Move/Direction.o
 .PHONY : Move/Direction.o
 
-# target to build an object file
-Move/Direction.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.out.dir/build.make CMakeFiles/game.out.dir/Move/Direction.cpp.o
-.PHONY : Move/Direction.cpp.o
-
-Move/Direction.i: Move/Direction.cpp.i
+# target to preprocess a source file
+Move/Direction.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.out.dir/build.make CMakeFiles/game.out.dir/Move/Direction.i
 .PHONY : Move/Direction.i
 
-# target to preprocess a source file
-Move/Direction.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.out.dir/build.make CMakeFiles/game.out.dir/Move/Direction.cpp.i
-.PHONY : Move/Direction.cpp.i
-
-Move/Direction.s: Move/Direction.cpp.s
+# target to generate assembly for a file
+Move/Direction.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.out.dir/build.make CMakeFiles/game.out.dir/Move/Direction.s
 .PHONY : Move/Direction.s
 
-# target to generate assembly for a file
-Move/Direction.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.out.dir/build.make CMakeFiles/game.out.dir/Move/Direction.cpp.s
-.PHONY : Move/Direction.cpp.s
-
-Move/MoveManager.o: Move/MoveManager.cpp.o
+# target to build an object file
+Move/MoveManager.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.out.dir/build.make CMakeFiles/game.out.dir/Move/MoveManager.o
 .PHONY : Move/MoveManager.o
 
-# target to build an object file
-Move/MoveManager.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.out.dir/build.make CMakeFiles/game.out.dir/Move/MoveManager.cpp.o
-.PHONY : Move/MoveManager.cpp.o
-
-Move/MoveManager.i: Move/MoveManager.cpp.i
+# target to preprocess a source file
+Move/MoveManager.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.out.dir/build.make CMakeFiles/game.out.dir/Move/MoveManager.i
 .PHONY : Move/MoveManager.i
 
-# target to preprocess a source file
-Move/MoveManager.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.out.dir/build.make CMakeFiles/game.out.dir/Move/MoveManager.cpp.i
-.PHONY : Move/MoveManager.cpp.i
-
-Move/MoveManager.s: Move/MoveManager.cpp.s
+# target to generate assembly for a file
+Move/MoveManager.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.out.dir/build.make CMakeFiles/game.out.dir/Move/MoveManager.s
 .PHONY : Move/MoveManager.s
 
-# target to generate assembly for a file
-Move/MoveManager.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.out.dir/build.make CMakeFiles/game.out.dir/Move/MoveManager.cpp.s
-.PHONY : Move/MoveManager.cpp.s
-
-Player.o: Player.cpp.o
+# target to build an object file
+Player.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.out.dir/build.make CMakeFiles/game.out.dir/Player.o
 .PHONY : Player.o
 
-# target to build an object file
-Player.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.out.dir/build.make CMakeFiles/game.out.dir/Player.cpp.o
-.PHONY : Player.cpp.o
-
-Player.i: Player.cpp.i
+# target to preprocess a source file
+Player.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.out.dir/build.make CMakeFiles/game.out.dir/Player.i
 .PHONY : Player.i
 
-# target to preprocess a source file
-Player.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.out.dir/build.make CMakeFiles/game.out.dir/Player.cpp.i
-.PHONY : Player.cpp.i
-
-Player.s: Player.cpp.s
+# target to generate assembly for a file
+Player.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.out.dir/build.make CMakeFiles/game.out.dir/Player.s
 .PHONY : Player.s
 
-# target to generate assembly for a file
-Player.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.out.dir/build.make CMakeFiles/game.out.dir/Player.cpp.s
-.PHONY : Player.cpp.s
-
-main.o: main.cpp.o
+# target to build an object file
+main.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.out.dir/build.make CMakeFiles/game.out.dir/main.o
 .PHONY : main.o
 
-# target to build an object file
-main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.out.dir/build.make CMakeFiles/game.out.dir/main.cpp.o
-.PHONY : main.cpp.o
-
-main.i: main.cpp.i
+# target to preprocess a source file
+main.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.out.dir/build.make CMakeFiles/game.out.dir/main.i
 .PHONY : main.i
 
-# target to preprocess a source file
-main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.out.dir/build.make CMakeFiles/game.out.dir/main.cpp.i
-.PHONY : main.cpp.i
-
-main.s: main.cpp.s
-.PHONY : main.s
-
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.out.dir/build.make CMakeFiles/game.out.dir/main.cpp.s
-.PHONY : main.cpp.s
+main.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.out.dir/build.make CMakeFiles/game.out.dir/main.s
+.PHONY : main.s
 
 # Help Target
 help:
@@ -711,6 +543,12 @@ help:
 	@echo "... Field/Square.o"
 	@echo "... Field/Square.i"
 	@echo "... Field/Square.s"
+	@echo "... Game/GameManager.o"
+	@echo "... Game/GameManager.i"
+	@echo "... Game/GameManager.s"
+	@echo "... Input/Input.o"
+	@echo "... Input/Input.i"
+	@echo "... Input/Input.s"
 	@echo "... Item/Item.o"
 	@echo "... Item/Item.i"
 	@echo "... Item/Item.s"

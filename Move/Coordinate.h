@@ -15,5 +15,6 @@ class Coordinate
         int getX();
         int getY();
         std::pair<int,int> getPair();
+        bool operator==(const Coordinate& other) const;
 };
 #endif

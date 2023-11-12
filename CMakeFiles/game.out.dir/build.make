@@ -69,367 +69,401 @@ include CMakeFiles/game.out.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/game.out.dir/flags.make
 
-CMakeFiles/game.out.dir/main.cpp.o: CMakeFiles/game.out.dir/flags.make
-CMakeFiles/game.out.dir/main.cpp.o: main.cpp
-CMakeFiles/game.out.dir/main.cpp.o: CMakeFiles/game.out.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yaroslav/OOP/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/game.out.dir/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/game.out.dir/main.cpp.o -MF CMakeFiles/game.out.dir/main.cpp.o.d -o CMakeFiles/game.out.dir/main.cpp.o -c /home/yaroslav/OOP/main.cpp
-
-CMakeFiles/game.out.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/game.out.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yaroslav/OOP/main.cpp > CMakeFiles/game.out.dir/main.cpp.i
-
-CMakeFiles/game.out.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/game.out.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yaroslav/OOP/main.cpp -o CMakeFiles/game.out.dir/main.cpp.s
-
-CMakeFiles/game.out.dir/EventManager/EventManager.cpp.o: CMakeFiles/game.out.dir/flags.make
-CMakeFiles/game.out.dir/EventManager/EventManager.cpp.o: EventManager/EventManager.cpp
-CMakeFiles/game.out.dir/EventManager/EventManager.cpp.o: CMakeFiles/game.out.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yaroslav/OOP/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/game.out.dir/EventManager/EventManager.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/game.out.dir/EventManager/EventManager.cpp.o -MF CMakeFiles/game.out.dir/EventManager/EventManager.cpp.o.d -o CMakeFiles/game.out.dir/EventManager/EventManager.cpp.o -c /home/yaroslav/OOP/EventManager/EventManager.cpp
-
-CMakeFiles/game.out.dir/EventManager/EventManager.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/game.out.dir/EventManager/EventManager.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yaroslav/OOP/EventManager/EventManager.cpp > CMakeFiles/game.out.dir/EventManager/EventManager.cpp.i
-
-CMakeFiles/game.out.dir/EventManager/EventManager.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/game.out.dir/EventManager/EventManager.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yaroslav/OOP/EventManager/EventManager.cpp -o CMakeFiles/game.out.dir/EventManager/EventManager.cpp.s
-
-CMakeFiles/game.out.dir/EventManager/Event/TeleportEvent.cpp.o: CMakeFiles/game.out.dir/flags.make
-CMakeFiles/game.out.dir/EventManager/Event/TeleportEvent.cpp.o: EventManager/Event/TeleportEvent.cpp
-CMakeFiles/game.out.dir/EventManager/Event/TeleportEvent.cpp.o: CMakeFiles/game.out.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yaroslav/OOP/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/game.out.dir/EventManager/Event/TeleportEvent.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/game.out.dir/EventManager/Event/TeleportEvent.cpp.o -MF CMakeFiles/game.out.dir/EventManager/Event/TeleportEvent.cpp.o.d -o CMakeFiles/game.out.dir/EventManager/Event/TeleportEvent.cpp.o -c /home/yaroslav/OOP/EventManager/Event/TeleportEvent.cpp
-
-CMakeFiles/game.out.dir/EventManager/Event/TeleportEvent.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/game.out.dir/EventManager/Event/TeleportEvent.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yaroslav/OOP/EventManager/Event/TeleportEvent.cpp > CMakeFiles/game.out.dir/EventManager/Event/TeleportEvent.cpp.i
-
-CMakeFiles/game.out.dir/EventManager/Event/TeleportEvent.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/game.out.dir/EventManager/Event/TeleportEvent.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yaroslav/OOP/EventManager/Event/TeleportEvent.cpp -o CMakeFiles/game.out.dir/EventManager/Event/TeleportEvent.cpp.s
-
-CMakeFiles/game.out.dir/EventManager/Event/NoneEvent.cpp.o: CMakeFiles/game.out.dir/flags.make
-CMakeFiles/game.out.dir/EventManager/Event/NoneEvent.cpp.o: EventManager/Event/NoneEvent.cpp
-CMakeFiles/game.out.dir/EventManager/Event/NoneEvent.cpp.o: CMakeFiles/game.out.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yaroslav/OOP/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/game.out.dir/EventManager/Event/NoneEvent.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/game.out.dir/EventManager/Event/NoneEvent.cpp.o -MF CMakeFiles/game.out.dir/EventManager/Event/NoneEvent.cpp.o.d -o CMakeFiles/game.out.dir/EventManager/Event/NoneEvent.cpp.o -c /home/yaroslav/OOP/EventManager/Event/NoneEvent.cpp
-
-CMakeFiles/game.out.dir/EventManager/Event/NoneEvent.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/game.out.dir/EventManager/Event/NoneEvent.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yaroslav/OOP/EventManager/Event/NoneEvent.cpp > CMakeFiles/game.out.dir/EventManager/Event/NoneEvent.cpp.i
-
-CMakeFiles/game.out.dir/EventManager/Event/NoneEvent.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/game.out.dir/EventManager/Event/NoneEvent.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yaroslav/OOP/EventManager/Event/NoneEvent.cpp -o CMakeFiles/game.out.dir/EventManager/Event/NoneEvent.cpp.s
-
-CMakeFiles/game.out.dir/EventManager/Event/TrapEvent.cpp.o: CMakeFiles/game.out.dir/flags.make
-CMakeFiles/game.out.dir/EventManager/Event/TrapEvent.cpp.o: EventManager/Event/TrapEvent.cpp
-CMakeFiles/game.out.dir/EventManager/Event/TrapEvent.cpp.o: CMakeFiles/game.out.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yaroslav/OOP/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/game.out.dir/EventManager/Event/TrapEvent.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/game.out.dir/EventManager/Event/TrapEvent.cpp.o -MF CMakeFiles/game.out.dir/EventManager/Event/TrapEvent.cpp.o.d -o CMakeFiles/game.out.dir/EventManager/Event/TrapEvent.cpp.o -c /home/yaroslav/OOP/EventManager/Event/TrapEvent.cpp
-
-CMakeFiles/game.out.dir/EventManager/Event/TrapEvent.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/game.out.dir/EventManager/Event/TrapEvent.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yaroslav/OOP/EventManager/Event/TrapEvent.cpp > CMakeFiles/game.out.dir/EventManager/Event/TrapEvent.cpp.i
-
-CMakeFiles/game.out.dir/EventManager/Event/TrapEvent.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/game.out.dir/EventManager/Event/TrapEvent.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yaroslav/OOP/EventManager/Event/TrapEvent.cpp -o CMakeFiles/game.out.dir/EventManager/Event/TrapEvent.cpp.s
-
-CMakeFiles/game.out.dir/EventManager/Event/TreatEvent.cpp.o: CMakeFiles/game.out.dir/flags.make
-CMakeFiles/game.out.dir/EventManager/Event/TreatEvent.cpp.o: EventManager/Event/TreatEvent.cpp
-CMakeFiles/game.out.dir/EventManager/Event/TreatEvent.cpp.o: CMakeFiles/game.out.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yaroslav/OOP/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/game.out.dir/EventManager/Event/TreatEvent.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/game.out.dir/EventManager/Event/TreatEvent.cpp.o -MF CMakeFiles/game.out.dir/EventManager/Event/TreatEvent.cpp.o.d -o CMakeFiles/game.out.dir/EventManager/Event/TreatEvent.cpp.o -c /home/yaroslav/OOP/EventManager/Event/TreatEvent.cpp
-
-CMakeFiles/game.out.dir/EventManager/Event/TreatEvent.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/game.out.dir/EventManager/Event/TreatEvent.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yaroslav/OOP/EventManager/Event/TreatEvent.cpp > CMakeFiles/game.out.dir/EventManager/Event/TreatEvent.cpp.i
-
-CMakeFiles/game.out.dir/EventManager/Event/TreatEvent.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/game.out.dir/EventManager/Event/TreatEvent.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yaroslav/OOP/EventManager/Event/TreatEvent.cpp -o CMakeFiles/game.out.dir/EventManager/Event/TreatEvent.cpp.s
-
-CMakeFiles/game.out.dir/Field/Field.cpp.o: CMakeFiles/game.out.dir/flags.make
-CMakeFiles/game.out.dir/Field/Field.cpp.o: Field/Field.cpp
-CMakeFiles/game.out.dir/Field/Field.cpp.o: CMakeFiles/game.out.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yaroslav/OOP/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/game.out.dir/Field/Field.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/game.out.dir/Field/Field.cpp.o -MF CMakeFiles/game.out.dir/Field/Field.cpp.o.d -o CMakeFiles/game.out.dir/Field/Field.cpp.o -c /home/yaroslav/OOP/Field/Field.cpp
-
-CMakeFiles/game.out.dir/Field/Field.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/game.out.dir/Field/Field.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yaroslav/OOP/Field/Field.cpp > CMakeFiles/game.out.dir/Field/Field.cpp.i
-
-CMakeFiles/game.out.dir/Field/Field.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/game.out.dir/Field/Field.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yaroslav/OOP/Field/Field.cpp -o CMakeFiles/game.out.dir/Field/Field.cpp.s
-
-CMakeFiles/game.out.dir/Field/FieldCreator.cpp.o: CMakeFiles/game.out.dir/flags.make
-CMakeFiles/game.out.dir/Field/FieldCreator.cpp.o: Field/FieldCreator.cpp
-CMakeFiles/game.out.dir/Field/FieldCreator.cpp.o: CMakeFiles/game.out.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yaroslav/OOP/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/game.out.dir/Field/FieldCreator.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/game.out.dir/Field/FieldCreator.cpp.o -MF CMakeFiles/game.out.dir/Field/FieldCreator.cpp.o.d -o CMakeFiles/game.out.dir/Field/FieldCreator.cpp.o -c /home/yaroslav/OOP/Field/FieldCreator.cpp
-
-CMakeFiles/game.out.dir/Field/FieldCreator.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/game.out.dir/Field/FieldCreator.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yaroslav/OOP/Field/FieldCreator.cpp > CMakeFiles/game.out.dir/Field/FieldCreator.cpp.i
-
-CMakeFiles/game.out.dir/Field/FieldCreator.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/game.out.dir/Field/FieldCreator.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yaroslav/OOP/Field/FieldCreator.cpp -o CMakeFiles/game.out.dir/Field/FieldCreator.cpp.s
-
-CMakeFiles/game.out.dir/Field/Square.cpp.o: CMakeFiles/game.out.dir/flags.make
-CMakeFiles/game.out.dir/Field/Square.cpp.o: Field/Square.cpp
-CMakeFiles/game.out.dir/Field/Square.cpp.o: CMakeFiles/game.out.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yaroslav/OOP/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/game.out.dir/Field/Square.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/game.out.dir/Field/Square.cpp.o -MF CMakeFiles/game.out.dir/Field/Square.cpp.o.d -o CMakeFiles/game.out.dir/Field/Square.cpp.o -c /home/yaroslav/OOP/Field/Square.cpp
-
-CMakeFiles/game.out.dir/Field/Square.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/game.out.dir/Field/Square.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yaroslav/OOP/Field/Square.cpp > CMakeFiles/game.out.dir/Field/Square.cpp.i
-
-CMakeFiles/game.out.dir/Field/Square.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/game.out.dir/Field/Square.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yaroslav/OOP/Field/Square.cpp -o CMakeFiles/game.out.dir/Field/Square.cpp.s
-
-CMakeFiles/game.out.dir/Characteristic/Armor.cpp.o: CMakeFiles/game.out.dir/flags.make
-CMakeFiles/game.out.dir/Characteristic/Armor.cpp.o: Characteristic/Armor.cpp
-CMakeFiles/game.out.dir/Characteristic/Armor.cpp.o: CMakeFiles/game.out.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yaroslav/OOP/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/game.out.dir/Characteristic/Armor.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/game.out.dir/Characteristic/Armor.cpp.o -MF CMakeFiles/game.out.dir/Characteristic/Armor.cpp.o.d -o CMakeFiles/game.out.dir/Characteristic/Armor.cpp.o -c /home/yaroslav/OOP/Characteristic/Armor.cpp
-
-CMakeFiles/game.out.dir/Characteristic/Armor.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/game.out.dir/Characteristic/Armor.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yaroslav/OOP/Characteristic/Armor.cpp > CMakeFiles/game.out.dir/Characteristic/Armor.cpp.i
-
-CMakeFiles/game.out.dir/Characteristic/Armor.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/game.out.dir/Characteristic/Armor.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yaroslav/OOP/Characteristic/Armor.cpp -o CMakeFiles/game.out.dir/Characteristic/Armor.cpp.s
-
-CMakeFiles/game.out.dir/Characteristic/Characteristic.cpp.o: CMakeFiles/game.out.dir/flags.make
-CMakeFiles/game.out.dir/Characteristic/Characteristic.cpp.o: Characteristic/Characteristic.cpp
-CMakeFiles/game.out.dir/Characteristic/Characteristic.cpp.o: CMakeFiles/game.out.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yaroslav/OOP/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/game.out.dir/Characteristic/Characteristic.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/game.out.dir/Characteristic/Characteristic.cpp.o -MF CMakeFiles/game.out.dir/Characteristic/Characteristic.cpp.o.d -o CMakeFiles/game.out.dir/Characteristic/Characteristic.cpp.o -c /home/yaroslav/OOP/Characteristic/Characteristic.cpp
-
-CMakeFiles/game.out.dir/Characteristic/Characteristic.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/game.out.dir/Characteristic/Characteristic.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yaroslav/OOP/Characteristic/Characteristic.cpp > CMakeFiles/game.out.dir/Characteristic/Characteristic.cpp.i
-
-CMakeFiles/game.out.dir/Characteristic/Characteristic.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/game.out.dir/Characteristic/Characteristic.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yaroslav/OOP/Characteristic/Characteristic.cpp -o CMakeFiles/game.out.dir/Characteristic/Characteristic.cpp.s
-
-CMakeFiles/game.out.dir/Move/Coordinate.cpp.o: CMakeFiles/game.out.dir/flags.make
-CMakeFiles/game.out.dir/Move/Coordinate.cpp.o: Move/Coordinate.cpp
-CMakeFiles/game.out.dir/Move/Coordinate.cpp.o: CMakeFiles/game.out.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yaroslav/OOP/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/game.out.dir/Move/Coordinate.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/game.out.dir/Move/Coordinate.cpp.o -MF CMakeFiles/game.out.dir/Move/Coordinate.cpp.o.d -o CMakeFiles/game.out.dir/Move/Coordinate.cpp.o -c /home/yaroslav/OOP/Move/Coordinate.cpp
-
-CMakeFiles/game.out.dir/Move/Coordinate.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/game.out.dir/Move/Coordinate.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yaroslav/OOP/Move/Coordinate.cpp > CMakeFiles/game.out.dir/Move/Coordinate.cpp.i
-
-CMakeFiles/game.out.dir/Move/Coordinate.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/game.out.dir/Move/Coordinate.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yaroslav/OOP/Move/Coordinate.cpp -o CMakeFiles/game.out.dir/Move/Coordinate.cpp.s
-
-CMakeFiles/game.out.dir/Characteristic/Count.cpp.o: CMakeFiles/game.out.dir/flags.make
-CMakeFiles/game.out.dir/Characteristic/Count.cpp.o: Characteristic/Count.cpp
-CMakeFiles/game.out.dir/Characteristic/Count.cpp.o: CMakeFiles/game.out.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yaroslav/OOP/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/game.out.dir/Characteristic/Count.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/game.out.dir/Characteristic/Count.cpp.o -MF CMakeFiles/game.out.dir/Characteristic/Count.cpp.o.d -o CMakeFiles/game.out.dir/Characteristic/Count.cpp.o -c /home/yaroslav/OOP/Characteristic/Count.cpp
-
-CMakeFiles/game.out.dir/Characteristic/Count.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/game.out.dir/Characteristic/Count.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yaroslav/OOP/Characteristic/Count.cpp > CMakeFiles/game.out.dir/Characteristic/Count.cpp.i
-
-CMakeFiles/game.out.dir/Characteristic/Count.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/game.out.dir/Characteristic/Count.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yaroslav/OOP/Characteristic/Count.cpp -o CMakeFiles/game.out.dir/Characteristic/Count.cpp.s
-
-CMakeFiles/game.out.dir/Move/Direction.cpp.o: CMakeFiles/game.out.dir/flags.make
-CMakeFiles/game.out.dir/Move/Direction.cpp.o: Move/Direction.cpp
-CMakeFiles/game.out.dir/Move/Direction.cpp.o: CMakeFiles/game.out.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yaroslav/OOP/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/game.out.dir/Move/Direction.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/game.out.dir/Move/Direction.cpp.o -MF CMakeFiles/game.out.dir/Move/Direction.cpp.o.d -o CMakeFiles/game.out.dir/Move/Direction.cpp.o -c /home/yaroslav/OOP/Move/Direction.cpp
-
-CMakeFiles/game.out.dir/Move/Direction.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/game.out.dir/Move/Direction.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yaroslav/OOP/Move/Direction.cpp > CMakeFiles/game.out.dir/Move/Direction.cpp.i
-
-CMakeFiles/game.out.dir/Move/Direction.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/game.out.dir/Move/Direction.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yaroslav/OOP/Move/Direction.cpp -o CMakeFiles/game.out.dir/Move/Direction.cpp.s
-
-CMakeFiles/game.out.dir/Characteristic/Health.cpp.o: CMakeFiles/game.out.dir/flags.make
-CMakeFiles/game.out.dir/Characteristic/Health.cpp.o: Characteristic/Health.cpp
-CMakeFiles/game.out.dir/Characteristic/Health.cpp.o: CMakeFiles/game.out.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yaroslav/OOP/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/game.out.dir/Characteristic/Health.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/game.out.dir/Characteristic/Health.cpp.o -MF CMakeFiles/game.out.dir/Characteristic/Health.cpp.o.d -o CMakeFiles/game.out.dir/Characteristic/Health.cpp.o -c /home/yaroslav/OOP/Characteristic/Health.cpp
-
-CMakeFiles/game.out.dir/Characteristic/Health.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/game.out.dir/Characteristic/Health.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yaroslav/OOP/Characteristic/Health.cpp > CMakeFiles/game.out.dir/Characteristic/Health.cpp.i
-
-CMakeFiles/game.out.dir/Characteristic/Health.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/game.out.dir/Characteristic/Health.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yaroslav/OOP/Characteristic/Health.cpp -o CMakeFiles/game.out.dir/Characteristic/Health.cpp.s
-
-CMakeFiles/game.out.dir/Item/Item.cpp.o: CMakeFiles/game.out.dir/flags.make
-CMakeFiles/game.out.dir/Item/Item.cpp.o: Item/Item.cpp
-CMakeFiles/game.out.dir/Item/Item.cpp.o: CMakeFiles/game.out.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yaroslav/OOP/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/game.out.dir/Item/Item.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/game.out.dir/Item/Item.cpp.o -MF CMakeFiles/game.out.dir/Item/Item.cpp.o.d -o CMakeFiles/game.out.dir/Item/Item.cpp.o -c /home/yaroslav/OOP/Item/Item.cpp
-
-CMakeFiles/game.out.dir/Item/Item.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/game.out.dir/Item/Item.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yaroslav/OOP/Item/Item.cpp > CMakeFiles/game.out.dir/Item/Item.cpp.i
-
-CMakeFiles/game.out.dir/Item/Item.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/game.out.dir/Item/Item.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yaroslav/OOP/Item/Item.cpp -o CMakeFiles/game.out.dir/Item/Item.cpp.s
-
-CMakeFiles/game.out.dir/Characteristic/Money.cpp.o: CMakeFiles/game.out.dir/flags.make
-CMakeFiles/game.out.dir/Characteristic/Money.cpp.o: Characteristic/Money.cpp
-CMakeFiles/game.out.dir/Characteristic/Money.cpp.o: CMakeFiles/game.out.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yaroslav/OOP/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/game.out.dir/Characteristic/Money.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/game.out.dir/Characteristic/Money.cpp.o -MF CMakeFiles/game.out.dir/Characteristic/Money.cpp.o.d -o CMakeFiles/game.out.dir/Characteristic/Money.cpp.o -c /home/yaroslav/OOP/Characteristic/Money.cpp
-
-CMakeFiles/game.out.dir/Characteristic/Money.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/game.out.dir/Characteristic/Money.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yaroslav/OOP/Characteristic/Money.cpp > CMakeFiles/game.out.dir/Characteristic/Money.cpp.i
-
-CMakeFiles/game.out.dir/Characteristic/Money.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/game.out.dir/Characteristic/Money.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yaroslav/OOP/Characteristic/Money.cpp -o CMakeFiles/game.out.dir/Characteristic/Money.cpp.s
-
-CMakeFiles/game.out.dir/Move/MoveManager.cpp.o: CMakeFiles/game.out.dir/flags.make
-CMakeFiles/game.out.dir/Move/MoveManager.cpp.o: Move/MoveManager.cpp
-CMakeFiles/game.out.dir/Move/MoveManager.cpp.o: CMakeFiles/game.out.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yaroslav/OOP/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/game.out.dir/Move/MoveManager.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/game.out.dir/Move/MoveManager.cpp.o -MF CMakeFiles/game.out.dir/Move/MoveManager.cpp.o.d -o CMakeFiles/game.out.dir/Move/MoveManager.cpp.o -c /home/yaroslav/OOP/Move/MoveManager.cpp
-
-CMakeFiles/game.out.dir/Move/MoveManager.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/game.out.dir/Move/MoveManager.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yaroslav/OOP/Move/MoveManager.cpp > CMakeFiles/game.out.dir/Move/MoveManager.cpp.i
-
-CMakeFiles/game.out.dir/Move/MoveManager.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/game.out.dir/Move/MoveManager.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yaroslav/OOP/Move/MoveManager.cpp -o CMakeFiles/game.out.dir/Move/MoveManager.cpp.s
-
-CMakeFiles/game.out.dir/Player.cpp.o: CMakeFiles/game.out.dir/flags.make
-CMakeFiles/game.out.dir/Player.cpp.o: Player.cpp
-CMakeFiles/game.out.dir/Player.cpp.o: CMakeFiles/game.out.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yaroslav/OOP/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/game.out.dir/Player.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/game.out.dir/Player.cpp.o -MF CMakeFiles/game.out.dir/Player.cpp.o.d -o CMakeFiles/game.out.dir/Player.cpp.o -c /home/yaroslav/OOP/Player.cpp
-
-CMakeFiles/game.out.dir/Player.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/game.out.dir/Player.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yaroslav/OOP/Player.cpp > CMakeFiles/game.out.dir/Player.cpp.i
-
-CMakeFiles/game.out.dir/Player.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/game.out.dir/Player.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yaroslav/OOP/Player.cpp -o CMakeFiles/game.out.dir/Player.cpp.s
-
-CMakeFiles/game.out.dir/Characteristic/Power.cpp.o: CMakeFiles/game.out.dir/flags.make
-CMakeFiles/game.out.dir/Characteristic/Power.cpp.o: Characteristic/Power.cpp
-CMakeFiles/game.out.dir/Characteristic/Power.cpp.o: CMakeFiles/game.out.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yaroslav/OOP/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/game.out.dir/Characteristic/Power.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/game.out.dir/Characteristic/Power.cpp.o -MF CMakeFiles/game.out.dir/Characteristic/Power.cpp.o.d -o CMakeFiles/game.out.dir/Characteristic/Power.cpp.o -c /home/yaroslav/OOP/Characteristic/Power.cpp
-
-CMakeFiles/game.out.dir/Characteristic/Power.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/game.out.dir/Characteristic/Power.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yaroslav/OOP/Characteristic/Power.cpp > CMakeFiles/game.out.dir/Characteristic/Power.cpp.i
-
-CMakeFiles/game.out.dir/Characteristic/Power.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/game.out.dir/Characteristic/Power.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yaroslav/OOP/Characteristic/Power.cpp -o CMakeFiles/game.out.dir/Characteristic/Power.cpp.s
-
-CMakeFiles/game.out.dir/Characteristic/Score.cpp.o: CMakeFiles/game.out.dir/flags.make
-CMakeFiles/game.out.dir/Characteristic/Score.cpp.o: Characteristic/Score.cpp
-CMakeFiles/game.out.dir/Characteristic/Score.cpp.o: CMakeFiles/game.out.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yaroslav/OOP/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/game.out.dir/Characteristic/Score.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/game.out.dir/Characteristic/Score.cpp.o -MF CMakeFiles/game.out.dir/Characteristic/Score.cpp.o.d -o CMakeFiles/game.out.dir/Characteristic/Score.cpp.o -c /home/yaroslav/OOP/Characteristic/Score.cpp
-
-CMakeFiles/game.out.dir/Characteristic/Score.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/game.out.dir/Characteristic/Score.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yaroslav/OOP/Characteristic/Score.cpp > CMakeFiles/game.out.dir/Characteristic/Score.cpp.i
-
-CMakeFiles/game.out.dir/Characteristic/Score.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/game.out.dir/Characteristic/Score.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yaroslav/OOP/Characteristic/Score.cpp -o CMakeFiles/game.out.dir/Characteristic/Score.cpp.s
-
-CMakeFiles/game.out.dir/Item/Weapon.cpp.o: CMakeFiles/game.out.dir/flags.make
-CMakeFiles/game.out.dir/Item/Weapon.cpp.o: Item/Weapon.cpp
-CMakeFiles/game.out.dir/Item/Weapon.cpp.o: CMakeFiles/game.out.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yaroslav/OOP/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/game.out.dir/Item/Weapon.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/game.out.dir/Item/Weapon.cpp.o -MF CMakeFiles/game.out.dir/Item/Weapon.cpp.o.d -o CMakeFiles/game.out.dir/Item/Weapon.cpp.o -c /home/yaroslav/OOP/Item/Weapon.cpp
-
-CMakeFiles/game.out.dir/Item/Weapon.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/game.out.dir/Item/Weapon.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yaroslav/OOP/Item/Weapon.cpp > CMakeFiles/game.out.dir/Item/Weapon.cpp.i
-
-CMakeFiles/game.out.dir/Item/Weapon.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/game.out.dir/Item/Weapon.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yaroslav/OOP/Item/Weapon.cpp -o CMakeFiles/game.out.dir/Item/Weapon.cpp.s
+CMakeFiles/game.out.dir/main.o: CMakeFiles/game.out.dir/flags.make
+CMakeFiles/game.out.dir/main.o: main.cpp
+CMakeFiles/game.out.dir/main.o: CMakeFiles/game.out.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yaroslav/OOP/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/game.out.dir/main.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/game.out.dir/main.o -MF CMakeFiles/game.out.dir/main.o.d -o CMakeFiles/game.out.dir/main.o -c /home/yaroslav/OOP/main.cpp
+
+CMakeFiles/game.out.dir/main.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/game.out.dir/main.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yaroslav/OOP/main.cpp > CMakeFiles/game.out.dir/main.i
+
+CMakeFiles/game.out.dir/main.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/game.out.dir/main.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yaroslav/OOP/main.cpp -o CMakeFiles/game.out.dir/main.s
+
+CMakeFiles/game.out.dir/EventManager/EventManager.o: CMakeFiles/game.out.dir/flags.make
+CMakeFiles/game.out.dir/EventManager/EventManager.o: EventManager/EventManager.cpp
+CMakeFiles/game.out.dir/EventManager/EventManager.o: CMakeFiles/game.out.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yaroslav/OOP/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/game.out.dir/EventManager/EventManager.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/game.out.dir/EventManager/EventManager.o -MF CMakeFiles/game.out.dir/EventManager/EventManager.o.d -o CMakeFiles/game.out.dir/EventManager/EventManager.o -c /home/yaroslav/OOP/EventManager/EventManager.cpp
+
+CMakeFiles/game.out.dir/EventManager/EventManager.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/game.out.dir/EventManager/EventManager.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yaroslav/OOP/EventManager/EventManager.cpp > CMakeFiles/game.out.dir/EventManager/EventManager.i
+
+CMakeFiles/game.out.dir/EventManager/EventManager.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/game.out.dir/EventManager/EventManager.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yaroslav/OOP/EventManager/EventManager.cpp -o CMakeFiles/game.out.dir/EventManager/EventManager.s
+
+CMakeFiles/game.out.dir/EventManager/Event/TeleportEvent.o: CMakeFiles/game.out.dir/flags.make
+CMakeFiles/game.out.dir/EventManager/Event/TeleportEvent.o: EventManager/Event/TeleportEvent.cpp
+CMakeFiles/game.out.dir/EventManager/Event/TeleportEvent.o: CMakeFiles/game.out.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yaroslav/OOP/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/game.out.dir/EventManager/Event/TeleportEvent.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/game.out.dir/EventManager/Event/TeleportEvent.o -MF CMakeFiles/game.out.dir/EventManager/Event/TeleportEvent.o.d -o CMakeFiles/game.out.dir/EventManager/Event/TeleportEvent.o -c /home/yaroslav/OOP/EventManager/Event/TeleportEvent.cpp
+
+CMakeFiles/game.out.dir/EventManager/Event/TeleportEvent.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/game.out.dir/EventManager/Event/TeleportEvent.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yaroslav/OOP/EventManager/Event/TeleportEvent.cpp > CMakeFiles/game.out.dir/EventManager/Event/TeleportEvent.i
+
+CMakeFiles/game.out.dir/EventManager/Event/TeleportEvent.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/game.out.dir/EventManager/Event/TeleportEvent.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yaroslav/OOP/EventManager/Event/TeleportEvent.cpp -o CMakeFiles/game.out.dir/EventManager/Event/TeleportEvent.s
+
+CMakeFiles/game.out.dir/EventManager/Event/NoneEvent.o: CMakeFiles/game.out.dir/flags.make
+CMakeFiles/game.out.dir/EventManager/Event/NoneEvent.o: EventManager/Event/NoneEvent.cpp
+CMakeFiles/game.out.dir/EventManager/Event/NoneEvent.o: CMakeFiles/game.out.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yaroslav/OOP/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/game.out.dir/EventManager/Event/NoneEvent.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/game.out.dir/EventManager/Event/NoneEvent.o -MF CMakeFiles/game.out.dir/EventManager/Event/NoneEvent.o.d -o CMakeFiles/game.out.dir/EventManager/Event/NoneEvent.o -c /home/yaroslav/OOP/EventManager/Event/NoneEvent.cpp
+
+CMakeFiles/game.out.dir/EventManager/Event/NoneEvent.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/game.out.dir/EventManager/Event/NoneEvent.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yaroslav/OOP/EventManager/Event/NoneEvent.cpp > CMakeFiles/game.out.dir/EventManager/Event/NoneEvent.i
+
+CMakeFiles/game.out.dir/EventManager/Event/NoneEvent.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/game.out.dir/EventManager/Event/NoneEvent.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yaroslav/OOP/EventManager/Event/NoneEvent.cpp -o CMakeFiles/game.out.dir/EventManager/Event/NoneEvent.s
+
+CMakeFiles/game.out.dir/EventManager/Event/TrapEvent.o: CMakeFiles/game.out.dir/flags.make
+CMakeFiles/game.out.dir/EventManager/Event/TrapEvent.o: EventManager/Event/TrapEvent.cpp
+CMakeFiles/game.out.dir/EventManager/Event/TrapEvent.o: CMakeFiles/game.out.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yaroslav/OOP/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/game.out.dir/EventManager/Event/TrapEvent.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/game.out.dir/EventManager/Event/TrapEvent.o -MF CMakeFiles/game.out.dir/EventManager/Event/TrapEvent.o.d -o CMakeFiles/game.out.dir/EventManager/Event/TrapEvent.o -c /home/yaroslav/OOP/EventManager/Event/TrapEvent.cpp
+
+CMakeFiles/game.out.dir/EventManager/Event/TrapEvent.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/game.out.dir/EventManager/Event/TrapEvent.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yaroslav/OOP/EventManager/Event/TrapEvent.cpp > CMakeFiles/game.out.dir/EventManager/Event/TrapEvent.i
+
+CMakeFiles/game.out.dir/EventManager/Event/TrapEvent.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/game.out.dir/EventManager/Event/TrapEvent.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yaroslav/OOP/EventManager/Event/TrapEvent.cpp -o CMakeFiles/game.out.dir/EventManager/Event/TrapEvent.s
+
+CMakeFiles/game.out.dir/EventManager/Event/TreatEvent.o: CMakeFiles/game.out.dir/flags.make
+CMakeFiles/game.out.dir/EventManager/Event/TreatEvent.o: EventManager/Event/TreatEvent.cpp
+CMakeFiles/game.out.dir/EventManager/Event/TreatEvent.o: CMakeFiles/game.out.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yaroslav/OOP/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/game.out.dir/EventManager/Event/TreatEvent.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/game.out.dir/EventManager/Event/TreatEvent.o -MF CMakeFiles/game.out.dir/EventManager/Event/TreatEvent.o.d -o CMakeFiles/game.out.dir/EventManager/Event/TreatEvent.o -c /home/yaroslav/OOP/EventManager/Event/TreatEvent.cpp
+
+CMakeFiles/game.out.dir/EventManager/Event/TreatEvent.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/game.out.dir/EventManager/Event/TreatEvent.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yaroslav/OOP/EventManager/Event/TreatEvent.cpp > CMakeFiles/game.out.dir/EventManager/Event/TreatEvent.i
+
+CMakeFiles/game.out.dir/EventManager/Event/TreatEvent.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/game.out.dir/EventManager/Event/TreatEvent.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yaroslav/OOP/EventManager/Event/TreatEvent.cpp -o CMakeFiles/game.out.dir/EventManager/Event/TreatEvent.s
+
+CMakeFiles/game.out.dir/Field/Field.o: CMakeFiles/game.out.dir/flags.make
+CMakeFiles/game.out.dir/Field/Field.o: Field/Field.cpp
+CMakeFiles/game.out.dir/Field/Field.o: CMakeFiles/game.out.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yaroslav/OOP/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/game.out.dir/Field/Field.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/game.out.dir/Field/Field.o -MF CMakeFiles/game.out.dir/Field/Field.o.d -o CMakeFiles/game.out.dir/Field/Field.o -c /home/yaroslav/OOP/Field/Field.cpp
+
+CMakeFiles/game.out.dir/Field/Field.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/game.out.dir/Field/Field.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yaroslav/OOP/Field/Field.cpp > CMakeFiles/game.out.dir/Field/Field.i
+
+CMakeFiles/game.out.dir/Field/Field.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/game.out.dir/Field/Field.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yaroslav/OOP/Field/Field.cpp -o CMakeFiles/game.out.dir/Field/Field.s
+
+CMakeFiles/game.out.dir/Field/FieldCreator.o: CMakeFiles/game.out.dir/flags.make
+CMakeFiles/game.out.dir/Field/FieldCreator.o: Field/FieldCreator.cpp
+CMakeFiles/game.out.dir/Field/FieldCreator.o: CMakeFiles/game.out.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yaroslav/OOP/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/game.out.dir/Field/FieldCreator.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/game.out.dir/Field/FieldCreator.o -MF CMakeFiles/game.out.dir/Field/FieldCreator.o.d -o CMakeFiles/game.out.dir/Field/FieldCreator.o -c /home/yaroslav/OOP/Field/FieldCreator.cpp
+
+CMakeFiles/game.out.dir/Field/FieldCreator.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/game.out.dir/Field/FieldCreator.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yaroslav/OOP/Field/FieldCreator.cpp > CMakeFiles/game.out.dir/Field/FieldCreator.i
+
+CMakeFiles/game.out.dir/Field/FieldCreator.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/game.out.dir/Field/FieldCreator.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yaroslav/OOP/Field/FieldCreator.cpp -o CMakeFiles/game.out.dir/Field/FieldCreator.s
+
+CMakeFiles/game.out.dir/Field/Square.o: CMakeFiles/game.out.dir/flags.make
+CMakeFiles/game.out.dir/Field/Square.o: Field/Square.cpp
+CMakeFiles/game.out.dir/Field/Square.o: CMakeFiles/game.out.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yaroslav/OOP/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/game.out.dir/Field/Square.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/game.out.dir/Field/Square.o -MF CMakeFiles/game.out.dir/Field/Square.o.d -o CMakeFiles/game.out.dir/Field/Square.o -c /home/yaroslav/OOP/Field/Square.cpp
+
+CMakeFiles/game.out.dir/Field/Square.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/game.out.dir/Field/Square.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yaroslav/OOP/Field/Square.cpp > CMakeFiles/game.out.dir/Field/Square.i
+
+CMakeFiles/game.out.dir/Field/Square.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/game.out.dir/Field/Square.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yaroslav/OOP/Field/Square.cpp -o CMakeFiles/game.out.dir/Field/Square.s
+
+CMakeFiles/game.out.dir/Characteristic/Armor.o: CMakeFiles/game.out.dir/flags.make
+CMakeFiles/game.out.dir/Characteristic/Armor.o: Characteristic/Armor.cpp
+CMakeFiles/game.out.dir/Characteristic/Armor.o: CMakeFiles/game.out.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yaroslav/OOP/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/game.out.dir/Characteristic/Armor.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/game.out.dir/Characteristic/Armor.o -MF CMakeFiles/game.out.dir/Characteristic/Armor.o.d -o CMakeFiles/game.out.dir/Characteristic/Armor.o -c /home/yaroslav/OOP/Characteristic/Armor.cpp
+
+CMakeFiles/game.out.dir/Characteristic/Armor.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/game.out.dir/Characteristic/Armor.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yaroslav/OOP/Characteristic/Armor.cpp > CMakeFiles/game.out.dir/Characteristic/Armor.i
+
+CMakeFiles/game.out.dir/Characteristic/Armor.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/game.out.dir/Characteristic/Armor.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yaroslav/OOP/Characteristic/Armor.cpp -o CMakeFiles/game.out.dir/Characteristic/Armor.s
+
+CMakeFiles/game.out.dir/Characteristic/Characteristic.o: CMakeFiles/game.out.dir/flags.make
+CMakeFiles/game.out.dir/Characteristic/Characteristic.o: Characteristic/Characteristic.cpp
+CMakeFiles/game.out.dir/Characteristic/Characteristic.o: CMakeFiles/game.out.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yaroslav/OOP/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/game.out.dir/Characteristic/Characteristic.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/game.out.dir/Characteristic/Characteristic.o -MF CMakeFiles/game.out.dir/Characteristic/Characteristic.o.d -o CMakeFiles/game.out.dir/Characteristic/Characteristic.o -c /home/yaroslav/OOP/Characteristic/Characteristic.cpp
+
+CMakeFiles/game.out.dir/Characteristic/Characteristic.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/game.out.dir/Characteristic/Characteristic.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yaroslav/OOP/Characteristic/Characteristic.cpp > CMakeFiles/game.out.dir/Characteristic/Characteristic.i
+
+CMakeFiles/game.out.dir/Characteristic/Characteristic.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/game.out.dir/Characteristic/Characteristic.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yaroslav/OOP/Characteristic/Characteristic.cpp -o CMakeFiles/game.out.dir/Characteristic/Characteristic.s
+
+CMakeFiles/game.out.dir/Characteristic/Money.o: CMakeFiles/game.out.dir/flags.make
+CMakeFiles/game.out.dir/Characteristic/Money.o: Characteristic/Money.cpp
+CMakeFiles/game.out.dir/Characteristic/Money.o: CMakeFiles/game.out.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yaroslav/OOP/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/game.out.dir/Characteristic/Money.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/game.out.dir/Characteristic/Money.o -MF CMakeFiles/game.out.dir/Characteristic/Money.o.d -o CMakeFiles/game.out.dir/Characteristic/Money.o -c /home/yaroslav/OOP/Characteristic/Money.cpp
+
+CMakeFiles/game.out.dir/Characteristic/Money.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/game.out.dir/Characteristic/Money.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yaroslav/OOP/Characteristic/Money.cpp > CMakeFiles/game.out.dir/Characteristic/Money.i
+
+CMakeFiles/game.out.dir/Characteristic/Money.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/game.out.dir/Characteristic/Money.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yaroslav/OOP/Characteristic/Money.cpp -o CMakeFiles/game.out.dir/Characteristic/Money.s
+
+CMakeFiles/game.out.dir/Characteristic/Count.o: CMakeFiles/game.out.dir/flags.make
+CMakeFiles/game.out.dir/Characteristic/Count.o: Characteristic/Count.cpp
+CMakeFiles/game.out.dir/Characteristic/Count.o: CMakeFiles/game.out.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yaroslav/OOP/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/game.out.dir/Characteristic/Count.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/game.out.dir/Characteristic/Count.o -MF CMakeFiles/game.out.dir/Characteristic/Count.o.d -o CMakeFiles/game.out.dir/Characteristic/Count.o -c /home/yaroslav/OOP/Characteristic/Count.cpp
+
+CMakeFiles/game.out.dir/Characteristic/Count.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/game.out.dir/Characteristic/Count.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yaroslav/OOP/Characteristic/Count.cpp > CMakeFiles/game.out.dir/Characteristic/Count.i
+
+CMakeFiles/game.out.dir/Characteristic/Count.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/game.out.dir/Characteristic/Count.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yaroslav/OOP/Characteristic/Count.cpp -o CMakeFiles/game.out.dir/Characteristic/Count.s
+
+CMakeFiles/game.out.dir/Characteristic/Health.o: CMakeFiles/game.out.dir/flags.make
+CMakeFiles/game.out.dir/Characteristic/Health.o: Characteristic/Health.cpp
+CMakeFiles/game.out.dir/Characteristic/Health.o: CMakeFiles/game.out.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yaroslav/OOP/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/game.out.dir/Characteristic/Health.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/game.out.dir/Characteristic/Health.o -MF CMakeFiles/game.out.dir/Characteristic/Health.o.d -o CMakeFiles/game.out.dir/Characteristic/Health.o -c /home/yaroslav/OOP/Characteristic/Health.cpp
+
+CMakeFiles/game.out.dir/Characteristic/Health.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/game.out.dir/Characteristic/Health.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yaroslav/OOP/Characteristic/Health.cpp > CMakeFiles/game.out.dir/Characteristic/Health.i
+
+CMakeFiles/game.out.dir/Characteristic/Health.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/game.out.dir/Characteristic/Health.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yaroslav/OOP/Characteristic/Health.cpp -o CMakeFiles/game.out.dir/Characteristic/Health.s
+
+CMakeFiles/game.out.dir/Characteristic/Power.o: CMakeFiles/game.out.dir/flags.make
+CMakeFiles/game.out.dir/Characteristic/Power.o: Characteristic/Power.cpp
+CMakeFiles/game.out.dir/Characteristic/Power.o: CMakeFiles/game.out.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yaroslav/OOP/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/game.out.dir/Characteristic/Power.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/game.out.dir/Characteristic/Power.o -MF CMakeFiles/game.out.dir/Characteristic/Power.o.d -o CMakeFiles/game.out.dir/Characteristic/Power.o -c /home/yaroslav/OOP/Characteristic/Power.cpp
+
+CMakeFiles/game.out.dir/Characteristic/Power.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/game.out.dir/Characteristic/Power.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yaroslav/OOP/Characteristic/Power.cpp > CMakeFiles/game.out.dir/Characteristic/Power.i
+
+CMakeFiles/game.out.dir/Characteristic/Power.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/game.out.dir/Characteristic/Power.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yaroslav/OOP/Characteristic/Power.cpp -o CMakeFiles/game.out.dir/Characteristic/Power.s
+
+CMakeFiles/game.out.dir/Characteristic/Score.o: CMakeFiles/game.out.dir/flags.make
+CMakeFiles/game.out.dir/Characteristic/Score.o: Characteristic/Score.cpp
+CMakeFiles/game.out.dir/Characteristic/Score.o: CMakeFiles/game.out.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yaroslav/OOP/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/game.out.dir/Characteristic/Score.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/game.out.dir/Characteristic/Score.o -MF CMakeFiles/game.out.dir/Characteristic/Score.o.d -o CMakeFiles/game.out.dir/Characteristic/Score.o -c /home/yaroslav/OOP/Characteristic/Score.cpp
+
+CMakeFiles/game.out.dir/Characteristic/Score.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/game.out.dir/Characteristic/Score.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yaroslav/OOP/Characteristic/Score.cpp > CMakeFiles/game.out.dir/Characteristic/Score.i
+
+CMakeFiles/game.out.dir/Characteristic/Score.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/game.out.dir/Characteristic/Score.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yaroslav/OOP/Characteristic/Score.cpp -o CMakeFiles/game.out.dir/Characteristic/Score.s
+
+CMakeFiles/game.out.dir/Move/Coordinate.o: CMakeFiles/game.out.dir/flags.make
+CMakeFiles/game.out.dir/Move/Coordinate.o: Move/Coordinate.cpp
+CMakeFiles/game.out.dir/Move/Coordinate.o: CMakeFiles/game.out.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yaroslav/OOP/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/game.out.dir/Move/Coordinate.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/game.out.dir/Move/Coordinate.o -MF CMakeFiles/game.out.dir/Move/Coordinate.o.d -o CMakeFiles/game.out.dir/Move/Coordinate.o -c /home/yaroslav/OOP/Move/Coordinate.cpp
+
+CMakeFiles/game.out.dir/Move/Coordinate.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/game.out.dir/Move/Coordinate.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yaroslav/OOP/Move/Coordinate.cpp > CMakeFiles/game.out.dir/Move/Coordinate.i
+
+CMakeFiles/game.out.dir/Move/Coordinate.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/game.out.dir/Move/Coordinate.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yaroslav/OOP/Move/Coordinate.cpp -o CMakeFiles/game.out.dir/Move/Coordinate.s
+
+CMakeFiles/game.out.dir/Move/Direction.o: CMakeFiles/game.out.dir/flags.make
+CMakeFiles/game.out.dir/Move/Direction.o: Move/Direction.cpp
+CMakeFiles/game.out.dir/Move/Direction.o: CMakeFiles/game.out.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yaroslav/OOP/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/game.out.dir/Move/Direction.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/game.out.dir/Move/Direction.o -MF CMakeFiles/game.out.dir/Move/Direction.o.d -o CMakeFiles/game.out.dir/Move/Direction.o -c /home/yaroslav/OOP/Move/Direction.cpp
+
+CMakeFiles/game.out.dir/Move/Direction.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/game.out.dir/Move/Direction.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yaroslav/OOP/Move/Direction.cpp > CMakeFiles/game.out.dir/Move/Direction.i
+
+CMakeFiles/game.out.dir/Move/Direction.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/game.out.dir/Move/Direction.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yaroslav/OOP/Move/Direction.cpp -o CMakeFiles/game.out.dir/Move/Direction.s
+
+CMakeFiles/game.out.dir/Move/MoveManager.o: CMakeFiles/game.out.dir/flags.make
+CMakeFiles/game.out.dir/Move/MoveManager.o: Move/MoveManager.cpp
+CMakeFiles/game.out.dir/Move/MoveManager.o: CMakeFiles/game.out.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yaroslav/OOP/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/game.out.dir/Move/MoveManager.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/game.out.dir/Move/MoveManager.o -MF CMakeFiles/game.out.dir/Move/MoveManager.o.d -o CMakeFiles/game.out.dir/Move/MoveManager.o -c /home/yaroslav/OOP/Move/MoveManager.cpp
+
+CMakeFiles/game.out.dir/Move/MoveManager.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/game.out.dir/Move/MoveManager.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yaroslav/OOP/Move/MoveManager.cpp > CMakeFiles/game.out.dir/Move/MoveManager.i
+
+CMakeFiles/game.out.dir/Move/MoveManager.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/game.out.dir/Move/MoveManager.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yaroslav/OOP/Move/MoveManager.cpp -o CMakeFiles/game.out.dir/Move/MoveManager.s
+
+CMakeFiles/game.out.dir/Item/Item.o: CMakeFiles/game.out.dir/flags.make
+CMakeFiles/game.out.dir/Item/Item.o: Item/Item.cpp
+CMakeFiles/game.out.dir/Item/Item.o: CMakeFiles/game.out.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yaroslav/OOP/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/game.out.dir/Item/Item.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/game.out.dir/Item/Item.o -MF CMakeFiles/game.out.dir/Item/Item.o.d -o CMakeFiles/game.out.dir/Item/Item.o -c /home/yaroslav/OOP/Item/Item.cpp
+
+CMakeFiles/game.out.dir/Item/Item.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/game.out.dir/Item/Item.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yaroslav/OOP/Item/Item.cpp > CMakeFiles/game.out.dir/Item/Item.i
+
+CMakeFiles/game.out.dir/Item/Item.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/game.out.dir/Item/Item.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yaroslav/OOP/Item/Item.cpp -o CMakeFiles/game.out.dir/Item/Item.s
+
+CMakeFiles/game.out.dir/Item/Weapon.o: CMakeFiles/game.out.dir/flags.make
+CMakeFiles/game.out.dir/Item/Weapon.o: Item/Weapon.cpp
+CMakeFiles/game.out.dir/Item/Weapon.o: CMakeFiles/game.out.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yaroslav/OOP/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/game.out.dir/Item/Weapon.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/game.out.dir/Item/Weapon.o -MF CMakeFiles/game.out.dir/Item/Weapon.o.d -o CMakeFiles/game.out.dir/Item/Weapon.o -c /home/yaroslav/OOP/Item/Weapon.cpp
+
+CMakeFiles/game.out.dir/Item/Weapon.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/game.out.dir/Item/Weapon.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yaroslav/OOP/Item/Weapon.cpp > CMakeFiles/game.out.dir/Item/Weapon.i
+
+CMakeFiles/game.out.dir/Item/Weapon.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/game.out.dir/Item/Weapon.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yaroslav/OOP/Item/Weapon.cpp -o CMakeFiles/game.out.dir/Item/Weapon.s
+
+CMakeFiles/game.out.dir/Player.o: CMakeFiles/game.out.dir/flags.make
+CMakeFiles/game.out.dir/Player.o: Player.cpp
+CMakeFiles/game.out.dir/Player.o: CMakeFiles/game.out.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yaroslav/OOP/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/game.out.dir/Player.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/game.out.dir/Player.o -MF CMakeFiles/game.out.dir/Player.o.d -o CMakeFiles/game.out.dir/Player.o -c /home/yaroslav/OOP/Player.cpp
+
+CMakeFiles/game.out.dir/Player.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/game.out.dir/Player.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yaroslav/OOP/Player.cpp > CMakeFiles/game.out.dir/Player.i
+
+CMakeFiles/game.out.dir/Player.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/game.out.dir/Player.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yaroslav/OOP/Player.cpp -o CMakeFiles/game.out.dir/Player.s
+
+CMakeFiles/game.out.dir/Game/GameManager.o: CMakeFiles/game.out.dir/flags.make
+CMakeFiles/game.out.dir/Game/GameManager.o: Game/GameManager.cpp
+CMakeFiles/game.out.dir/Game/GameManager.o: CMakeFiles/game.out.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yaroslav/OOP/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/game.out.dir/Game/GameManager.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/game.out.dir/Game/GameManager.o -MF CMakeFiles/game.out.dir/Game/GameManager.o.d -o CMakeFiles/game.out.dir/Game/GameManager.o -c /home/yaroslav/OOP/Game/GameManager.cpp
+
+CMakeFiles/game.out.dir/Game/GameManager.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/game.out.dir/Game/GameManager.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yaroslav/OOP/Game/GameManager.cpp > CMakeFiles/game.out.dir/Game/GameManager.i
+
+CMakeFiles/game.out.dir/Game/GameManager.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/game.out.dir/Game/GameManager.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yaroslav/OOP/Game/GameManager.cpp -o CMakeFiles/game.out.dir/Game/GameManager.s
+
+CMakeFiles/game.out.dir/Input/Input.o: CMakeFiles/game.out.dir/flags.make
+CMakeFiles/game.out.dir/Input/Input.o: Input/Input.cpp
+CMakeFiles/game.out.dir/Input/Input.o: CMakeFiles/game.out.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yaroslav/OOP/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/game.out.dir/Input/Input.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/game.out.dir/Input/Input.o -MF CMakeFiles/game.out.dir/Input/Input.o.d -o CMakeFiles/game.out.dir/Input/Input.o -c /home/yaroslav/OOP/Input/Input.cpp
+
+CMakeFiles/game.out.dir/Input/Input.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/game.out.dir/Input/Input.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yaroslav/OOP/Input/Input.cpp > CMakeFiles/game.out.dir/Input/Input.i
+
+CMakeFiles/game.out.dir/Input/Input.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/game.out.dir/Input/Input.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yaroslav/OOP/Input/Input.cpp -o CMakeFiles/game.out.dir/Input/Input.s
 
 # Object files for target game.out
 game_out_OBJECTS = \
-"CMakeFiles/game.out.dir/main.cpp.o" \
-"CMakeFiles/game.out.dir/EventManager/EventManager.cpp.o" \
-"CMakeFiles/game.out.dir/EventManager/Event/TeleportEvent.cpp.o" \
-"CMakeFiles/game.out.dir/EventManager/Event/NoneEvent.cpp.o" \
-"CMakeFiles/game.out.dir/EventManager/Event/TrapEvent.cpp.o" \
-"CMakeFiles/game.out.dir/EventManager/Event/TreatEvent.cpp.o" \
-"CMakeFiles/game.out.dir/Field/Field.cpp.o" \
-"CMakeFiles/game.out.dir/Field/FieldCreator.cpp.o" \
-"CMakeFiles/game.out.dir/Field/Square.cpp.o" \
-"CMakeFiles/game.out.dir/Characteristic/Armor.cpp.o" \
-"CMakeFiles/game.out.dir/Characteristic/Characteristic.cpp.o" \
-"CMakeFiles/game.out.dir/Move/Coordinate.cpp.o" \
-"CMakeFiles/game.out.dir/Characteristic/Count.cpp.o" \
-"CMakeFiles/game.out.dir/Move/Direction.cpp.o" \
-"CMakeFiles/game.out.dir/Characteristic/Health.cpp.o" \
-"CMakeFiles/game.out.dir/Item/Item.cpp.o" \
-"CMakeFiles/game.out.dir/Characteristic/Money.cpp.o" \
-"CMakeFiles/game.out.dir/Move/MoveManager.cpp.o" \
-"CMakeFiles/game.out.dir/Player.cpp.o" \
-"CMakeFiles/game.out.dir/Characteristic/Power.cpp.o" \
-"CMakeFiles/game.out.dir/Characteristic/Score.cpp.o" \
-"CMakeFiles/game.out.dir/Item/Weapon.cpp.o"
+"CMakeFiles/game.out.dir/main.o" \
+"CMakeFiles/game.out.dir/EventManager/EventManager.o" \
+"CMakeFiles/game.out.dir/EventManager/Event/TeleportEvent.o" \
+"CMakeFiles/game.out.dir/EventManager/Event/NoneEvent.o" \
+"CMakeFiles/game.out.dir/EventManager/Event/TrapEvent.o" \
+"CMakeFiles/game.out.dir/EventManager/Event/TreatEvent.o" \
+"CMakeFiles/game.out.dir/Field/Field.o" \
+"CMakeFiles/game.out.dir/Field/FieldCreator.o" \
+"CMakeFiles/game.out.dir/Field/Square.o" \
+"CMakeFiles/game.out.dir/Characteristic/Armor.o" \
+"CMakeFiles/game.out.dir/Characteristic/Characteristic.o" \
+"CMakeFiles/game.out.dir/Characteristic/Money.o" \
+"CMakeFiles/game.out.dir/Characteristic/Count.o" \
+"CMakeFiles/game.out.dir/Characteristic/Health.o" \
+"CMakeFiles/game.out.dir/Characteristic/Power.o" \
+"CMakeFiles/game.out.dir/Characteristic/Score.o" \
+"CMakeFiles/game.out.dir/Move/Coordinate.o" \
+"CMakeFiles/game.out.dir/Move/Direction.o" \
+"CMakeFiles/game.out.dir/Move/MoveManager.o" \
+"CMakeFiles/game.out.dir/Item/Item.o" \
+"CMakeFiles/game.out.dir/Item/Weapon.o" \
+"CMakeFiles/game.out.dir/Player.o" \
+"CMakeFiles/game.out.dir/Game/GameManager.o" \
+"CMakeFiles/game.out.dir/Input/Input.o"
 
 # External object files for target game.out
 game_out_EXTERNAL_OBJECTS =
 
-game.out: CMakeFiles/game.out.dir/main.cpp.o
-game.out: CMakeFiles/game.out.dir/EventManager/EventManager.cpp.o
-game.out: CMakeFiles/game.out.dir/EventManager/Event/TeleportEvent.cpp.o
-game.out: CMakeFiles/game.out.dir/EventManager/Event/NoneEvent.cpp.o
-game.out: CMakeFiles/game.out.dir/EventManager/Event/TrapEvent.cpp.o
-game.out: CMakeFiles/game.out.dir/EventManager/Event/TreatEvent.cpp.o
-game.out: CMakeFiles/game.out.dir/Field/Field.cpp.o
-game.out: CMakeFiles/game.out.dir/Field/FieldCreator.cpp.o
-game.out: CMakeFiles/game.out.dir/Field/Square.cpp.o
-game.out: CMakeFiles/game.out.dir/Characteristic/Armor.cpp.o
-game.out: CMakeFiles/game.out.dir/Characteristic/Characteristic.cpp.o
-game.out: CMakeFiles/game.out.dir/Move/Coordinate.cpp.o
-game.out: CMakeFiles/game.out.dir/Characteristic/Count.cpp.o
-game.out: CMakeFiles/game.out.dir/Move/Direction.cpp.o
-game.out: CMakeFiles/game.out.dir/Characteristic/Health.cpp.o
-game.out: CMakeFiles/game.out.dir/Item/Item.cpp.o
-game.out: CMakeFiles/game.out.dir/Characteristic/Money.cpp.o
-game.out: CMakeFiles/game.out.dir/Move/MoveManager.cpp.o
-game.out: CMakeFiles/game.out.dir/Player.cpp.o
-game.out: CMakeFiles/game.out.dir/Characteristic/Power.cpp.o
-game.out: CMakeFiles/game.out.dir/Characteristic/Score.cpp.o
-game.out: CMakeFiles/game.out.dir/Item/Weapon.cpp.o
+game.out: CMakeFiles/game.out.dir/main.o
+game.out: CMakeFiles/game.out.dir/EventManager/EventManager.o
+game.out: CMakeFiles/game.out.dir/EventManager/Event/TeleportEvent.o
+game.out: CMakeFiles/game.out.dir/EventManager/Event/NoneEvent.o
+game.out: CMakeFiles/game.out.dir/EventManager/Event/TrapEvent.o
+game.out: CMakeFiles/game.out.dir/EventManager/Event/TreatEvent.o
+game.out: CMakeFiles/game.out.dir/Field/Field.o
+game.out: CMakeFiles/game.out.dir/Field/FieldCreator.o
+game.out: CMakeFiles/game.out.dir/Field/Square.o
+game.out: CMakeFiles/game.out.dir/Characteristic/Armor.o
+game.out: CMakeFiles/game.out.dir/Characteristic/Characteristic.o
+game.out: CMakeFiles/game.out.dir/Characteristic/Money.o
+game.out: CMakeFiles/game.out.dir/Characteristic/Count.o
+game.out: CMakeFiles/game.out.dir/Characteristic/Health.o
+game.out: CMakeFiles/game.out.dir/Characteristic/Power.o
+game.out: CMakeFiles/game.out.dir/Characteristic/Score.o
+game.out: CMakeFiles/game.out.dir/Move/Coordinate.o
+game.out: CMakeFiles/game.out.dir/Move/Direction.o
+game.out: CMakeFiles/game.out.dir/Move/MoveManager.o
+game.out: CMakeFiles/game.out.dir/Item/Item.o
+game.out: CMakeFiles/game.out.dir/Item/Weapon.o
+game.out: CMakeFiles/game.out.dir/Player.o
+game.out: CMakeFiles/game.out.dir/Game/GameManager.o
+game.out: CMakeFiles/game.out.dir/Input/Input.o
 game.out: CMakeFiles/game.out.dir/build.make
+game.out: /usr/lib/x86_64-linux-gnu/libcurses.so
+game.out: /usr/lib/x86_64-linux-gnu/libform.so
 game.out: CMakeFiles/game.out.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/yaroslav/OOP/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Linking CXX executable game.out"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/yaroslav/OOP/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Linking CXX executable game.out"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/game.out.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
