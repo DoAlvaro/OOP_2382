@@ -93,7 +93,6 @@ void GameManager::startLevel(){
     playerControl.FieldView();
     while (true) {
         dir = input._read();
-        std::cout << dir;
         config.handleInput(dir, *this);
         playerControl.FieldView();
         if (isLose(playerControl)){
