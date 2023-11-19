@@ -80,7 +80,7 @@ Field& Field::operator=(const Field& other){
         return *this;
     }
     start = other.start;
-    end = other.start;
+    end = other.end;
     width = other.width;
     height = other.height;
     field = new Square*[height];

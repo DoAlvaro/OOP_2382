@@ -2,8 +2,8 @@
 #define Field_h
 #include "Square.h" // 1
 #define DEFAULT_START 0
-#define DEFAULT_WIDTH 600
-#define DEFAULT_HEIGHT 600
+#define DEFAULT_WIDTH 300
+#define DEFAULT_HEIGHT 300
 #define START_COORDINATE 
 #define END_COORDIANTE 
 

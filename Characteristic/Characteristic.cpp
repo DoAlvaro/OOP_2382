@@ -21,9 +21,6 @@ void Characteristic::setValue(int val){
             break;
     }
 }
-Characteristic& Characteristic::operator=(Characteristic other){
-        throw std::invalid_argument("Попытка присваивания характеристики прервана\n");
-}
 int Characteristic::getValue(){
     return this->value;
 }

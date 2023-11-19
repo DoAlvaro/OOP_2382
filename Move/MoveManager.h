@@ -13,10 +13,11 @@ class MoveManager{
     public:
         Player& getPlayer();
         Field& getField();
-        explicit MoveManager(Player& player, Field& field) ;
+        MoveManager(Player& player, Field& field) ;
         void move(Direction direction);
         void teleport(Coordinate coordinate);
         Coordinate& coordinate();
         void FieldView();
+        MoveManager& operator=(const MoveManager& other);
 };
 #endif

@@ -174,7 +174,8 @@ CMakeFiles/game.out.dir/Input/Input.o: /home/yaroslav/OOP/Input/Input.cpp \
  /usr/include/c++/11/bits/stl_vector.h \
  /usr/include/c++/11/bits/stl_bvector.h \
  /usr/include/c++/11/bits/vector.tcc \
- /usr/include/c++/11/pstl/execution_defs.h /usr/include/curses.h \
+ /usr/include/c++/11/pstl/execution_defs.h \
+ /home/yaroslav/OOP/Input/../Move/Direction.h /usr/include/curses.h \
  /usr/include/ncurses_dll.h /usr/include/unctrl.h /usr/include/curses.h \
  /usr/include/unistd.h /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
  /usr/include/x86_64-linux-gnu/bits/environments.h \

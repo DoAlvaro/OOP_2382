@@ -11,6 +11,5 @@ class Characteristic
         void setValue(int val);
         int getValue();
         int check(int value);
-        Characteristic& operator=(Characteristic other);
 };
 #endif

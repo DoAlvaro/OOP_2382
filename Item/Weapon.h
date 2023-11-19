@@ -13,6 +13,6 @@ class Weapon
         std::string getName();
         void setName(std::string name);
         void use(Power& power);
-        void operator=(Weapon other);
+        // void operator=(Weapon other);
 };
 #endif

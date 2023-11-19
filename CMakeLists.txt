@@ -28,6 +28,13 @@ add_executable(game.out main.cpp
                 Item/Weapon.cpp
                     Player.cpp
                         Game/GameManager.cpp
-                            Input/Input.cpp
+                            Input/IInput.cpp
+                            Input/ConsoleInput.cpp
+                            Input/FileConfigReader.cpp
+                            Input/IConfigReader.cpp
+                            Input/InputHandler.cpp
+                                Command/ExitCommand.cpp
+                                Command/ICommand.cpp
+                                Command/MoveCommand.cpp
                             )
 target_link_libraries(game.out ${CURSES_LIBRARIES})

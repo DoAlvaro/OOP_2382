@@ -30,11 +30,11 @@ void MoveManager::move(Direction direction){
     
     int x = 0,y = 0;
             switch (direction){
-                case Direction::left:
+                case Direction::right:
                     player_coordinate.x += 1;
                     x+=1;
                     break;
-                case Direction::right:
+                case Direction::left:
                     this->player_coordinate.x -= 1;
                     x-=1;
                     break;
@@ -116,4 +116,10 @@ void MoveManager::FieldView() {
         }
         std::cout << "\n";
     }
+}
+MoveManager& MoveManager::operator=(const MoveManager& other){
+    this->field = other.field;
+    this->player = other.player;
+    this->player_coordinate = other.player_coordinate;
+    return *this;
 }

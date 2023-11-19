@@ -1,36 +1,43 @@
 #include "GameManager.h"
 #include <set>
 #include <iostream>
+GameManager::GameManager(IConfigReader &configgReader, ConsoleInput inputReader)
+    : playerControl{player,field}, configReader{configgReader}, input{inputReader},config{InputHandler(configgReader)}{
+    }
 void GameManager::chooseLevel(int level){
     this->level = level;
 }
-bool GameManager::startLevel(){
-    switch (level)
+bool GameManager::generateLevel(){
+    switch (this->level)
     {
     case 1:
-        start_level_1();
+        generate_level_1();
         break;
     case 2:
-        start_level_2();
+        generate_level_2();
         break;
     default:
         return false;
     }
     return true;
 }
-void GameManager::start_level_1(){
-    Player player;
-    Field field = FieldCreator().create_field_for_level(1);
-    MoveManager playerContol(player,field);
-    controller(playerContol);
 
+void GameManager::generate_level_1(){
+    Player player1;
+    Field field1 = FieldCreator().create_field_for_level(1);
+    this->player = player1;
+    this->field = field1;
+    MoveManager playerControl1(player1,field1);
+    this->playerControl = playerControl1;
 }
 
-void GameManager::start_level_2(){
-    Player player;
-    Field field = FieldCreator().create_field_for_level(2);
-    MoveManager playerContol(player,field);
-    controller(playerContol);
+void GameManager::generate_level_2(){
+    Player player1;
+    Field field1 = FieldCreator().create_field_for_level(2);
+    this->player = player1;
+    this->field = field1;
+    MoveManager playerControl1(player1,field1);
+    this->playerControl = playerControl1;
     
 }
 void GameManager::startGame(){
@@ -46,8 +53,10 @@ void GameManager::startGame(){
         catch(std::invalid_argument){
             chooseLevel(0);
         }
-        if (!startLevel()){
+        if (!generateLevel()){
             std::cout << "Вы ввели некорректный уровень! Попробуйте заново!";
+        }else{
+            this->startLevel();
         }
     }
 }
@@ -72,35 +81,21 @@ void GameManager::endLevel(bool win){
     }
     std::cout << "Введите уровень с которого хотите начать игру!";
 }
-void GameManager::controller(MoveManager& playerControl){
+MoveManager& GameManager::getPlayerManager(){
+    return this->playerControl;
+};
+void GameManager::startLevel(){
     char dir;
     bool win;
-    
-    Input input;
-    std::map<std::string, char> dictionary = input.read_dictionary("input.txt");
-    if (dictionary.size() == 0) {
+    if (config.getTable().size() == 0) {
         throw(std::invalid_argument("Команды в файле указаны некорректно"));
     }
     playerControl.FieldView();
-    while (dir != dictionary["quit"]) {
-        dir = input._getch();
-        if (dir == dictionary["up"]){
-                playerControl.move(Direction::up);
-                playerControl.FieldView();
-        }
-        if (dir == dictionary["down"]){
-                playerControl.move(Direction::down);
-                
-                playerControl.FieldView();
-        }
-        if (dir == dictionary["left"]){
-                playerControl.move(Direction::left);
-                playerControl.FieldView();
-        }
-        if (dir == dictionary["right"]){
-                playerControl.move(Direction::right);
-                playerControl.FieldView();
-        }
+    while (true) {
+        dir = input._read();
+        std::cout << dir;
+        config.handleInput(dir, *this);
+        playerControl.FieldView();
         if (isLose(playerControl)){
             win = false;
             break;

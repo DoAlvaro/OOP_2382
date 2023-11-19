@@ -235,6 +235,51 @@ Characteristic/Score.s:
 .PHONY : Characteristic/Score.s
 
 # target to build an object file
+Command/ExitCommand.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.out.dir/build.make CMakeFiles/game.out.dir/Command/ExitCommand.o
+.PHONY : Command/ExitCommand.o
+
+# target to preprocess a source file
+Command/ExitCommand.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.out.dir/build.make CMakeFiles/game.out.dir/Command/ExitCommand.i
+.PHONY : Command/ExitCommand.i
+
+# target to generate assembly for a file
+Command/ExitCommand.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.out.dir/build.make CMakeFiles/game.out.dir/Command/ExitCommand.s
+.PHONY : Command/ExitCommand.s
+
+# target to build an object file
+Command/ICommand.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.out.dir/build.make CMakeFiles/game.out.dir/Command/ICommand.o
+.PHONY : Command/ICommand.o
+
+# target to preprocess a source file
+Command/ICommand.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.out.dir/build.make CMakeFiles/game.out.dir/Command/ICommand.i
+.PHONY : Command/ICommand.i
+
+# target to generate assembly for a file
+Command/ICommand.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.out.dir/build.make CMakeFiles/game.out.dir/Command/ICommand.s
+.PHONY : Command/ICommand.s
+
+# target to build an object file
+Command/MoveCommand.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.out.dir/build.make CMakeFiles/game.out.dir/Command/MoveCommand.o
+.PHONY : Command/MoveCommand.o
+
+# target to preprocess a source file
+Command/MoveCommand.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.out.dir/build.make CMakeFiles/game.out.dir/Command/MoveCommand.i
+.PHONY : Command/MoveCommand.i
+
+# target to generate assembly for a file
+Command/MoveCommand.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.out.dir/build.make CMakeFiles/game.out.dir/Command/MoveCommand.s
+.PHONY : Command/MoveCommand.s
+
+# target to build an object file
 EventManager/Event/NoneEvent.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.out.dir/build.make CMakeFiles/game.out.dir/EventManager/Event/NoneEvent.o
 .PHONY : EventManager/Event/NoneEvent.o
@@ -370,19 +415,79 @@ Game/GameManager.s:
 .PHONY : Game/GameManager.s
 
 # target to build an object file
-Input/Input.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.out.dir/build.make CMakeFiles/game.out.dir/Input/Input.o
-.PHONY : Input/Input.o
+Input/ConsoleInput.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.out.dir/build.make CMakeFiles/game.out.dir/Input/ConsoleInput.o
+.PHONY : Input/ConsoleInput.o
 
 # target to preprocess a source file
-Input/Input.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.out.dir/build.make CMakeFiles/game.out.dir/Input/Input.i
-.PHONY : Input/Input.i
+Input/ConsoleInput.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.out.dir/build.make CMakeFiles/game.out.dir/Input/ConsoleInput.i
+.PHONY : Input/ConsoleInput.i
 
 # target to generate assembly for a file
-Input/Input.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.out.dir/build.make CMakeFiles/game.out.dir/Input/Input.s
-.PHONY : Input/Input.s
+Input/ConsoleInput.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.out.dir/build.make CMakeFiles/game.out.dir/Input/ConsoleInput.s
+.PHONY : Input/ConsoleInput.s
+
+# target to build an object file
+Input/FileConfigReader.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.out.dir/build.make CMakeFiles/game.out.dir/Input/FileConfigReader.o
+.PHONY : Input/FileConfigReader.o
+
+# target to preprocess a source file
+Input/FileConfigReader.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.out.dir/build.make CMakeFiles/game.out.dir/Input/FileConfigReader.i
+.PHONY : Input/FileConfigReader.i
+
+# target to generate assembly for a file
+Input/FileConfigReader.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.out.dir/build.make CMakeFiles/game.out.dir/Input/FileConfigReader.s
+.PHONY : Input/FileConfigReader.s
+
+# target to build an object file
+Input/IConfigReader.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.out.dir/build.make CMakeFiles/game.out.dir/Input/IConfigReader.o
+.PHONY : Input/IConfigReader.o
+
+# target to preprocess a source file
+Input/IConfigReader.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.out.dir/build.make CMakeFiles/game.out.dir/Input/IConfigReader.i
+.PHONY : Input/IConfigReader.i
+
+# target to generate assembly for a file
+Input/IConfigReader.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.out.dir/build.make CMakeFiles/game.out.dir/Input/IConfigReader.s
+.PHONY : Input/IConfigReader.s
+
+# target to build an object file
+Input/IInput.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.out.dir/build.make CMakeFiles/game.out.dir/Input/IInput.o
+.PHONY : Input/IInput.o
+
+# target to preprocess a source file
+Input/IInput.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.out.dir/build.make CMakeFiles/game.out.dir/Input/IInput.i
+.PHONY : Input/IInput.i
+
+# target to generate assembly for a file
+Input/IInput.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.out.dir/build.make CMakeFiles/game.out.dir/Input/IInput.s
+.PHONY : Input/IInput.s
+
+# target to build an object file
+Input/InputHandler.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.out.dir/build.make CMakeFiles/game.out.dir/Input/InputHandler.o
+.PHONY : Input/InputHandler.o
+
+# target to preprocess a source file
+Input/InputHandler.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.out.dir/build.make CMakeFiles/game.out.dir/Input/InputHandler.i
+.PHONY : Input/InputHandler.i
+
+# target to generate assembly for a file
+Input/InputHandler.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.out.dir/build.make CMakeFiles/game.out.dir/Input/InputHandler.s
+.PHONY : Input/InputHandler.s
 
 # target to build an object file
 Item/Item.o:
@@ -519,6 +624,15 @@ help:
 	@echo "... Characteristic/Score.o"
 	@echo "... Characteristic/Score.i"
 	@echo "... Characteristic/Score.s"
+	@echo "... Command/ExitCommand.o"
+	@echo "... Command/ExitCommand.i"
+	@echo "... Command/ExitCommand.s"
+	@echo "... Command/ICommand.o"
+	@echo "... Command/ICommand.i"
+	@echo "... Command/ICommand.s"
+	@echo "... Command/MoveCommand.o"
+	@echo "... Command/MoveCommand.i"
+	@echo "... Command/MoveCommand.s"
 	@echo "... EventManager/Event/NoneEvent.o"
 	@echo "... EventManager/Event/NoneEvent.i"
 	@echo "... EventManager/Event/NoneEvent.s"
@@ -546,9 +660,21 @@ help:
 	@echo "... Game/GameManager.o"
 	@echo "... Game/GameManager.i"
 	@echo "... Game/GameManager.s"
-	@echo "... Input/Input.o"
-	@echo "... Input/Input.i"
-	@echo "... Input/Input.s"
+	@echo "... Input/ConsoleInput.o"
+	@echo "... Input/ConsoleInput.i"
+	@echo "... Input/ConsoleInput.s"
+	@echo "... Input/FileConfigReader.o"
+	@echo "... Input/FileConfigReader.i"
+	@echo "... Input/FileConfigReader.s"
+	@echo "... Input/IConfigReader.o"
+	@echo "... Input/IConfigReader.i"
+	@echo "... Input/IConfigReader.s"
+	@echo "... Input/IInput.o"
+	@echo "... Input/IInput.i"
+	@echo "... Input/IInput.s"
+	@echo "... Input/InputHandler.o"
+	@echo "... Input/InputHandler.i"
+	@echo "... Input/InputHandler.s"
 	@echo "... Item/Item.o"
 	@echo "... Item/Item.i"
 	@echo "... Item/Item.s"
