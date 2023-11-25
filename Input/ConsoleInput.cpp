@@ -13,6 +13,7 @@ char ConsoleInput::_read()
     new_attr.c_lflag &= (~ECHO & ~ICANON);
     tcsetattr(STDIN_FILENO, TCSANOW, &new_attr);
     char key = std::getchar();
+    timeout(0);
     tcsetattr(STDIN_FILENO, TCSANOW, &default_attr);
     return key;
 } 

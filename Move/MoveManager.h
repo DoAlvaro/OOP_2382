@@ -17,7 +17,6 @@ class MoveManager{
         void move(Direction direction);
         void teleport(Coordinate coordinate);
         Coordinate& coordinate();
-        void FieldView();
         MoveManager& operator=(const MoveManager& other);
 };
 #endif

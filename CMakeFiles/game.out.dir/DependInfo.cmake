@@ -38,11 +38,13 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/yaroslav/OOP/Move/Direction.cpp" "CMakeFiles/game.out.dir/Move/Direction.o" "gcc" "CMakeFiles/game.out.dir/Move/Direction.o.d"
   "/home/yaroslav/OOP/Move/MoveManager.cpp" "CMakeFiles/game.out.dir/Move/MoveManager.o" "gcc" "CMakeFiles/game.out.dir/Move/MoveManager.o.d"
   "/home/yaroslav/OOP/Player.cpp" "CMakeFiles/game.out.dir/Player.o" "gcc" "CMakeFiles/game.out.dir/Player.o.d"
+  "/home/yaroslav/OOP/View/ConsoleView.cpp" "CMakeFiles/game.out.dir/View/ConsoleView.o" "gcc" "CMakeFiles/game.out.dir/View/ConsoleView.o.d"
+  "/home/yaroslav/OOP/View/GameObserver.cpp" "CMakeFiles/game.out.dir/View/GameObserver.o" "gcc" "CMakeFiles/game.out.dir/View/GameObserver.o.d"
   "/home/yaroslav/OOP/main.cpp" "CMakeFiles/game.out.dir/main.o" "gcc" "CMakeFiles/game.out.dir/main.o.d"
   )
 
-# Targets to which this target links.
-set(CMAKE_TARGET_LINKED_INFO_FILES
+# Targets to which this target links which contain Fortran sources.
+set(CMAKE_Fortran_TARGET_LINKED_INFO_FILES
   )
 
 # Fortran module output directory.

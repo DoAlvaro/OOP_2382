@@ -149,6 +149,7 @@ CMakeFiles/game.out.dir/EventManager/Event/TeleportEvent.o: \
  /usr/include/c++/11/bits/basic_ios.tcc \
  /usr/include/c++/11/bits/ostream.tcc /usr/include/c++/11/istream \
  /usr/include/c++/11/bits/istream.tcc \
+ /home/yaroslav/OOP/EventManager/Event/EnumEvent.h \
  /home/yaroslav/OOP/EventManager/Event/../../Move/Coordinate.h \
  /home/yaroslav/OOP/EventManager/Event/../../Move/Direction.h \
  /home/yaroslav/OOP/EventManager/Event/../../Player.h \

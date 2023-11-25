@@ -192,6 +192,7 @@ CMakeFiles/game.out.dir/Input/InputHandler.o: \
  /home/yaroslav/OOP/Input/../Command/../Game/../Move/../Field/Square.h \
  /home/yaroslav/OOP/Input/../Command/../Game/../Move/../Field/../Move/Coordinate.h \
  /home/yaroslav/OOP/Input/../Command/../Game/../Move/../Field/../EventManager/Event/Event.h \
+ /home/yaroslav/OOP/Input/../Command/../Game/../Move/../Field/../EventManager/Event/EnumEvent.h \
  /home/yaroslav/OOP/Input/../Command/../Game/../Player.h \
  /home/yaroslav/OOP/Input/../Command/../Game/../Field/FieldCreator.h \
  /home/yaroslav/OOP/Input/../Command/../Game/../Field/Field.h \
@@ -237,4 +238,9 @@ CMakeFiles/game.out.dir/Input/InputHandler.o: \
  /usr/include/linux/close_range.h \
  /home/yaroslav/OOP/Input/../Command/../Game/../Input/IConfigReader.h \
  /home/yaroslav/OOP/Input/../Command/../Game/../Input/IInput.h \
- /home/yaroslav/OOP/Input/../Command/../Game/../Input/InputHandler.h
+ /home/yaroslav/OOP/Input/../Command/../Game/../Input/InputHandler.h \
+ /home/yaroslav/OOP/Input/../Command/../Game/../View/EnumView.h \
+ /home/yaroslav/OOP/Input/../Command/../Game/../View/IObserver.h \
+ /home/yaroslav/OOP/Input/../Command/../Game/../View/EnumView.h \
+ /home/yaroslav/OOP/Input/../Command/../Game/../View/IObservable.h \
+ /home/yaroslav/OOP/Input/../Command/../Game/../View/IObserver.h

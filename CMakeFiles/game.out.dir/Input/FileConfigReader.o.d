@@ -201,6 +201,7 @@ CMakeFiles/game.out.dir/Input/FileConfigReader.o: \
  /home/yaroslav/OOP/Input/../Command/../Game/../Move/../Field/Square.h \
  /home/yaroslav/OOP/Input/../Command/../Game/../Move/../Field/../Move/Coordinate.h \
  /home/yaroslav/OOP/Input/../Command/../Game/../Move/../Field/../EventManager/Event/Event.h \
+ /home/yaroslav/OOP/Input/../Command/../Game/../Move/../Field/../EventManager/Event/EnumEvent.h \
  /home/yaroslav/OOP/Input/../Command/../Game/../Player.h \
  /home/yaroslav/OOP/Input/../Command/../Game/../Field/FieldCreator.h \
  /home/yaroslav/OOP/Input/../Command/../Game/../Field/Field.h \
@@ -240,6 +241,11 @@ CMakeFiles/game.out.dir/Input/FileConfigReader.o: \
  /home/yaroslav/OOP/Input/../Command/../Game/../Input/IConfigReader.h \
  /home/yaroslav/OOP/Input/../Command/../Game/../Input/IInput.h \
  /home/yaroslav/OOP/Input/../Command/../Game/../Input/InputHandler.h \
+ /home/yaroslav/OOP/Input/../Command/../Game/../View/EnumView.h \
+ /home/yaroslav/OOP/Input/../Command/../Game/../View/IObserver.h \
+ /home/yaroslav/OOP/Input/../Command/../Game/../View/EnumView.h \
+ /home/yaroslav/OOP/Input/../Command/../Game/../View/IObservable.h \
+ /home/yaroslav/OOP/Input/../Command/../Game/../View/IObserver.h \
  /home/yaroslav/OOP/Input/../Command/MoveCommand.h \
  /home/yaroslav/OOP/Input/../Command/../Move/Direction.h \
  /usr/include/c++/11/sstream /usr/include/c++/11/bits/sstream.tcc

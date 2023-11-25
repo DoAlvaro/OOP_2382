@@ -166,6 +166,7 @@ CMakeFiles/game.out.dir/Game/GameManager.o: \
  /home/yaroslav/OOP/Game/../Move/../Field/Square.h \
  /home/yaroslav/OOP/Game/../Move/../Field/../Move/Coordinate.h \
  /home/yaroslav/OOP/Game/../Move/../Field/../EventManager/Event/Event.h \
+ /home/yaroslav/OOP/Game/../Move/../Field/../EventManager/Event/EnumEvent.h \
  /home/yaroslav/OOP/Game/../Player.h \
  /home/yaroslav/OOP/Game/../Field/FieldCreator.h \
  /home/yaroslav/OOP/Game/../Field/Field.h \
@@ -236,6 +237,11 @@ CMakeFiles/game.out.dir/Game/GameManager.o: \
  /usr/include/c++/11/backward/auto_ptr.h \
  /usr/include/c++/11/pstl/glue_memory_defs.h \
  /home/yaroslav/OOP/Game/../Input/IInput.h \
- /home/yaroslav/OOP/Game/../Input/InputHandler.h /usr/include/c++/11/set \
+ /home/yaroslav/OOP/Game/../Input/InputHandler.h \
+ /home/yaroslav/OOP/Game/../View/EnumView.h \
+ /home/yaroslav/OOP/Game/../View/IObserver.h \
+ /home/yaroslav/OOP/Game/../View/EnumView.h \
+ /home/yaroslav/OOP/Game/../View/IObservable.h \
+ /home/yaroslav/OOP/Game/../View/IObserver.h /usr/include/c++/11/set \
  /usr/include/c++/11/bits/stl_set.h \
  /usr/include/c++/11/bits/stl_multiset.h

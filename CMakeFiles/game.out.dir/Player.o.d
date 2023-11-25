@@ -161,4 +161,5 @@ CMakeFiles/game.out.dir/Player.o: /home/yaroslav/OOP/Player.cpp \
  /home/yaroslav/OOP/Move/../Field/Field.h \
  /home/yaroslav/OOP/Move/../Field/Square.h \
  /home/yaroslav/OOP/Move/../Field/../Move/Coordinate.h \
- /home/yaroslav/OOP/Move/../Field/../EventManager/Event/Event.h
+ /home/yaroslav/OOP/Move/../Field/../EventManager/Event/Event.h \
+ /home/yaroslav/OOP/Move/../Field/../EventManager/Event/EnumEvent.h

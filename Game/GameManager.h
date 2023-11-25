@@ -15,8 +15,11 @@
 #include "../Input/IConfigReader.h"
 #include "../Input/IInput.h"
 #include "../Input/InputHandler.h"
+#include "../View/EnumView.h"
+#include "../View/IObserver.h"
+#include "../View/IObservable.h"
 
-class GameManager{
+class GameManager : Observable{
     int level;
     Player player;
     Field field;
@@ -24,11 +27,14 @@ class GameManager{
     IConfigReader& configReader;
     IInput& input;
     InputHandler config;
+    std::vector<Observer*> observers;
     void generate_level_1();
     void generate_level_2();
+    bool win;
     public:
         GameManager(IConfigReader &configgReader, ConsoleInput inputReader);
         MoveManager& getPlayerManager();
+        bool getWin();
         void startLevel();
         void chooseLevel(int level);
         bool generateLevel();
@@ -36,5 +42,11 @@ class GameManager{
         bool isWin(MoveManager& playerControl);
         bool isLose(MoveManager& playerControl);
         void endLevel(bool win);
+
+        void addObserver(Observer* apObserver) override;
+        void removeObserver(Observer* observer) override;
+        void notify(ViewEvent view_event) override;
+
+        friend class ViewConsole;
 };
 #endif

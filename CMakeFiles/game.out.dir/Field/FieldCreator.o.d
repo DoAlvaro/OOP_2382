@@ -151,6 +151,7 @@ CMakeFiles/game.out.dir/Field/FieldCreator.o: \
  /usr/include/c++/11/bits/istream.tcc \
  /home/yaroslav/OOP/Field/../Move/Direction.h \
  /home/yaroslav/OOP/Field/../EventManager/Event/Event.h \
+ /home/yaroslav/OOP/Field/../EventManager/Event/EnumEvent.h \
  /home/yaroslav/OOP/Field/../EventManager/Event/NoneEvent.h \
  /home/yaroslav/OOP/Field/../EventManager/Event/Event.h \
  /home/yaroslav/OOP/Field/../EventManager/Event/TrapEvent.h \

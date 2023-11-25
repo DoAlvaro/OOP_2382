@@ -167,6 +167,7 @@ CMakeFiles/game.out.dir/Command/ICommand.o: \
  /home/yaroslav/OOP/Command/../Game/../Move/../Field/Square.h \
  /home/yaroslav/OOP/Command/../Game/../Move/../Field/../Move/Coordinate.h \
  /home/yaroslav/OOP/Command/../Game/../Move/../Field/../EventManager/Event/Event.h \
+ /home/yaroslav/OOP/Command/../Game/../Move/../Field/../EventManager/Event/EnumEvent.h \
  /home/yaroslav/OOP/Command/../Game/../Player.h \
  /home/yaroslav/OOP/Command/../Game/../Field/FieldCreator.h \
  /home/yaroslav/OOP/Command/../Game/../Field/Field.h \
@@ -238,4 +239,9 @@ CMakeFiles/game.out.dir/Command/ICommand.o: \
  /usr/include/c++/11/backward/auto_ptr.h \
  /usr/include/c++/11/pstl/glue_memory_defs.h \
  /home/yaroslav/OOP/Command/../Game/../Input/IInput.h \
- /home/yaroslav/OOP/Command/../Game/../Input/InputHandler.h
+ /home/yaroslav/OOP/Command/../Game/../Input/InputHandler.h \
+ /home/yaroslav/OOP/Command/../Game/../View/EnumView.h \
+ /home/yaroslav/OOP/Command/../Game/../View/IObserver.h \
+ /home/yaroslav/OOP/Command/../Game/../View/EnumView.h \
+ /home/yaroslav/OOP/Command/../Game/../View/IObservable.h \
+ /home/yaroslav/OOP/Command/../Game/../View/IObserver.h

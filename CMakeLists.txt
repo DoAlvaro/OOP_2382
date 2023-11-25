@@ -36,5 +36,7 @@ add_executable(game.out main.cpp
                                 Command/ExitCommand.cpp
                                 Command/ICommand.cpp
                                 Command/MoveCommand.cpp
+                                    View/ConsoleView.cpp
+                                    View/GameObserver.cpp
                             )
 target_link_libraries(game.out ${CURSES_LIBRARIES})

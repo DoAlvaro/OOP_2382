@@ -149,4 +149,5 @@ CMakeFiles/game.out.dir/Field/Square.o: \
  /usr/include/c++/11/bits/ostream.tcc /usr/include/c++/11/istream \
  /usr/include/c++/11/bits/istream.tcc \
  /home/yaroslav/OOP/Field/../Move/Direction.h \
- /home/yaroslav/OOP/Field/../EventManager/Event/Event.h
+ /home/yaroslav/OOP/Field/../EventManager/Event/Event.h \
+ /home/yaroslav/OOP/Field/../EventManager/Event/EnumEvent.h

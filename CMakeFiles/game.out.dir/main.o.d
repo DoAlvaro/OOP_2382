@@ -165,6 +165,7 @@ CMakeFiles/game.out.dir/main.o: /home/yaroslav/OOP/main.cpp \
  /home/yaroslav/OOP/Game/../Move/../Field/Square.h \
  /home/yaroslav/OOP/Game/../Move/../Field/../Move/Coordinate.h \
  /home/yaroslav/OOP/Game/../Move/../Field/../EventManager/Event/Event.h \
+ /home/yaroslav/OOP/Game/../Move/../Field/../EventManager/Event/EnumEvent.h \
  /home/yaroslav/OOP/Game/../Player.h \
  /home/yaroslav/OOP/Game/../Field/FieldCreator.h \
  /home/yaroslav/OOP/Game/../Field/Field.h \
@@ -236,8 +237,27 @@ CMakeFiles/game.out.dir/main.o: /home/yaroslav/OOP/main.cpp \
  /usr/include/c++/11/pstl/glue_memory_defs.h \
  /home/yaroslav/OOP/Game/../Input/IInput.h \
  /home/yaroslav/OOP/Game/../Input/InputHandler.h \
+ /home/yaroslav/OOP/Game/../View/EnumView.h \
+ /home/yaroslav/OOP/Game/../View/IObserver.h \
+ /home/yaroslav/OOP/Game/../View/EnumView.h \
+ /home/yaroslav/OOP/Game/../View/IObservable.h \
+ /home/yaroslav/OOP/Game/../View/IObserver.h \
  /home/yaroslav/OOP/Input/FileConfigReader.h \
  /home/yaroslav/OOP/Input/IConfigReader.h /usr/include/c++/11/set \
  /usr/include/c++/11/bits/stl_set.h \
  /usr/include/c++/11/bits/stl_multiset.h \
- /home/yaroslav/OOP/Input/ConsoleInput.h
+ /home/yaroslav/OOP/Input/ConsoleInput.h \
+ /home/yaroslav/OOP/View/ConsoleView.h \
+ /home/yaroslav/OOP/View/GameObserver.h /home/yaroslav/OOP/View/IView.h \
+ /home/yaroslav/OOP/View/IObserver.h \
+ /home/yaroslav/OOP/View/../Game/GameManager.h \
+ /home/yaroslav/OOP/View/EnumView.h \
+ /home/yaroslav/OOP/View/../EventManager/Event/EnumEvent.h \
+ /usr/include/c++/11/iomanip /usr/include/c++/11/locale \
+ /usr/include/c++/11/bits/locale_facets_nonio.h /usr/include/c++/11/ctime \
+ /usr/include/x86_64-linux-gnu/c++/11/bits/time_members.h \
+ /usr/include/x86_64-linux-gnu/c++/11/bits/messages_members.h \
+ /usr/include/libintl.h /usr/include/c++/11/bits/locale_facets_nonio.tcc \
+ /usr/include/c++/11/bits/locale_conv.h \
+ /usr/include/c++/11/bits/quoted_string.h /usr/include/c++/11/sstream \
+ /usr/include/c++/11/bits/sstream.tcc

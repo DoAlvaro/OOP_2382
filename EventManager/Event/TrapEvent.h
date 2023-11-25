@@ -5,10 +5,12 @@
 #include "Event.h"
 class TrapEvent : public Event{
     int damage;
+    EnumEvent type_event;
     public:
         TrapEvent(int damage = DEFAULT_DAMAGE);
         TrapEvent* clone() const override;
         void start(MoveManager& playerControl);
+        EnumEvent type() const override;
 };
 
 #endif

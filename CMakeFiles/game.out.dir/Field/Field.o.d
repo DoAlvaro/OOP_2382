@@ -150,6 +150,7 @@ CMakeFiles/game.out.dir/Field/Field.o: /home/yaroslav/OOP/Field/Field.cpp \
  /usr/include/c++/11/bits/istream.tcc \
  /home/yaroslav/OOP/Field/../Move/Direction.h \
  /home/yaroslav/OOP/Field/../EventManager/Event/Event.h \
+ /home/yaroslav/OOP/Field/../EventManager/Event/EnumEvent.h \
  /usr/include/c++/11/memory /usr/include/c++/11/bits/stl_uninitialized.h \
  /usr/include/c++/11/bits/stl_tempbuf.h \
  /usr/include/c++/11/bits/stl_raw_storage_iter.h \

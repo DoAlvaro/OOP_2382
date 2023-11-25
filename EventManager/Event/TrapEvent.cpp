@@ -3,6 +3,7 @@
 #include "../EventManager.h"
 TrapEvent::TrapEvent(int damage){
     this->damage = damage;
+    this->type_event = EnumEvent::Trap;
 }
 void TrapEvent::start(MoveManager& playerControl){
     Player& player = playerControl.getPlayer();
@@ -11,4 +12,7 @@ void TrapEvent::start(MoveManager& playerControl){
 }
 TrapEvent* TrapEvent::clone() const{
     return new TrapEvent(*this);
+}
+EnumEvent TrapEvent::type() const{
+    return this->type_event;
 }

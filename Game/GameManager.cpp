@@ -41,8 +41,7 @@ void GameManager::generate_level_2(){
     
 }
 void GameManager::startGame(){
-    std::cout << "Вы начали игру!";
-    std::cout << "Введите уровень с которого хотите начать игру!";
+    notify(ViewEvent::ChooseLevel);
     std::string level;
     while (true){
         
@@ -54,11 +53,14 @@ void GameManager::startGame(){
             chooseLevel(0);
         }
         if (!generateLevel()){
-            std::cout << "Вы ввели некорректный уровень! Попробуйте заново!";
+            notify(ViewEvent::InvalidLevel);
         }else{
             this->startLevel();
         }
     }
+}
+bool GameManager::getWin(){
+    return this->win;
 }
 bool GameManager::isLose(MoveManager& playerControl){
     return playerControl.getPlayer().health().isDead();
@@ -67,19 +69,13 @@ bool GameManager::isWin(MoveManager& playerControl){
     return playerControl.coordinate() == playerControl.getField().getEnd();
 }
 void GameManager::endLevel(bool win){
-    if (win){
-        std::cout << "Поздравляю, Вы прошли уровень!" << '\n';
-    }
-    else{
-        std::cout << "Поздравляю, Вы мертвы! Теперь вы призрак!" << '\n';
-    }
-    char quit;
-    std::cout << "Введите q, если хотите заверишть игру! Если введешь что-то другое игра начнется снова....Хахахаахаха\n";
+    notify(ViewEvent::EndGame);
+    std::string quit;
     std::cin >> quit;
-    if (quit == 'q'){
+    if (quit == "q"){
         exit(0);
     }
-    std::cout << "Введите уровень с которого хотите начать игру!";
+    notify(ViewEvent::ChooseLevel);
 }
 MoveManager& GameManager::getPlayerManager(){
     return this->playerControl;
@@ -90,20 +86,36 @@ void GameManager::startLevel(){
     if (config.getTable().size() == 0) {
         throw(std::invalid_argument("Команды в файле указаны некорректно"));
     }
-    playerControl.FieldView();
+    notify(ViewEvent::InitGame);
     while (true) {
         dir = input._read();
         config.handleInput(dir, *this);
-        playerControl.FieldView();
+        notify(ViewEvent::InitGame);
         if (isLose(playerControl)){
-            win = false;
+            this->win = false;
             break;
         }
         if (isWin(playerControl)){
-            win = true;
+            this->win = true;
             break;
         }
     }
     
     endLevel(win);
+}
+
+void GameManager::addObserver(Observer* observer)
+{
+    this->observers.push_back(observer);
+}
+
+void GameManager::removeObserver(Observer* observer)
+{
+    this->observers.erase(std::remove(observers.begin(), observers.end(), observer), observers.end());
+}
+
+void GameManager::notify(ViewEvent view_event)
+{
+    for (Observer* observer : observers)
+        observer->update(view_event);
 }
