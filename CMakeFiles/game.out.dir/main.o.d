@@ -253,6 +253,10 @@ CMakeFiles/game.out.dir/main.o: /home/yaroslav/OOP/main.cpp \
  /home/yaroslav/OOP/View/../Game/GameManager.h \
  /home/yaroslav/OOP/View/EnumView.h \
  /home/yaroslav/OOP/View/../EventManager/Event/EnumEvent.h \
+ /home/yaroslav/OOP/View/../EventManager/Event/TeleportEvent.h \
+ /home/yaroslav/OOP/View/../EventManager/Event/Event.h \
+ /home/yaroslav/OOP/View/../EventManager/Event/../../Move/Coordinate.h \
+ /home/yaroslav/OOP/View/../EventManager/Event/EnumEvent.h \
  /usr/include/c++/11/iomanip /usr/include/c++/11/locale \
  /usr/include/c++/11/bits/locale_facets_nonio.h /usr/include/c++/11/ctime \
  /usr/include/x86_64-linux-gnu/c++/11/bits/time_members.h \

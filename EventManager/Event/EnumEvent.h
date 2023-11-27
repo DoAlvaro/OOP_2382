@@ -1,12 +1,12 @@
-#ifndef EnumEvent_h
-#define EnumEvent_h
+// #ifndef EnumEvent_h
+// #define EnumEvent_h
 
-enum class EnumEvent
-{
-    Trap,
-    Treat,
-    Teleport,
-    None
-};
+// enum class EnumEvent
+// {
+//     Trap,
+//     Treat,
+//     Teleport,
+//     None
+// };
 
-#endif
+// #endif

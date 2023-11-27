@@ -85,7 +85,7 @@ void ConsoleView::viewField() {
                     else{if (game->getPlayerManager().getField().getEnd().getX() == i && game->getPlayerManager().getField().getEnd().getY() == j){
                         std::cout << "  F  ";
                     }
-                    else{if (game->getPlayerManager().getField().getSquare(j,i).getEvent()->type() == EnumEvent::Teleport){
+                    else{if (typeid(*(game->getPlayerManager().getField().getSquare(j,i).getEvent())) == typeid(TeleportEvent)){
                         std::cout << "  T  ";
                     }
                     else{

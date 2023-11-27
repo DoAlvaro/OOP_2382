@@ -4912,7 +4912,10 @@ CMakeFiles/game.out.dir/Player.o: Player.cpp \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h
 
 CMakeFiles/game.out.dir/View/ConsoleView.o: View/ConsoleView.cpp \
+  Move/Coordinate.h \
   EventManager/Event/EnumEvent.h \
+  EventManager/Event/Event.h \
+  EventManager/Event/TeleportEvent.h \
   Field/Field.h \
   Field/FieldCreator.h \
   Move/Direction.h \
@@ -5547,7 +5550,10 @@ CMakeFiles/game.out.dir/main.o: main.cpp \
   Input/ConsoleInput.h \
   Input/FileConfigReader.h \
   Input/IConfigReader.h \
+  Move/Coordinate.h \
   EventManager/Event/EnumEvent.h \
+  EventManager/Event/Event.h \
+  EventManager/Event/TeleportEvent.h \
   Game/GameManager.h \
   View/ConsoleView.h \
   View/EnumView.h \

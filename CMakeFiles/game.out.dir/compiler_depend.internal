@@ -4943,7 +4943,10 @@ CMakeFiles/game.out.dir/Player.o
 
 CMakeFiles/game.out.dir/View/ConsoleView.o
  /home/yaroslav/OOP/View/ConsoleView.cpp
+ /home/yaroslav/OOP/Move/Coordinate.h
  /home/yaroslav/OOP/EventManager/Event/EnumEvent.h
+ /home/yaroslav/OOP/EventManager/Event/Event.h
+ /home/yaroslav/OOP/EventManager/Event/TeleportEvent.h
  /home/yaroslav/OOP/Field/Field.h
  /home/yaroslav/OOP/Field/FieldCreator.h
  /home/yaroslav/OOP/Move/Direction.h
@@ -5580,7 +5583,10 @@ CMakeFiles/game.out.dir/main.o
  /home/yaroslav/OOP/Input/ConsoleInput.h
  /home/yaroslav/OOP/Input/FileConfigReader.h
  /home/yaroslav/OOP/Input/IConfigReader.h
+ /home/yaroslav/OOP/Move/Coordinate.h
  /home/yaroslav/OOP/EventManager/Event/EnumEvent.h
+ /home/yaroslav/OOP/EventManager/Event/Event.h
+ /home/yaroslav/OOP/EventManager/Event/TeleportEvent.h
  /home/yaroslav/OOP/Game/GameManager.h
  /home/yaroslav/OOP/View/ConsoleView.h
  /home/yaroslav/OOP/View/EnumView.h

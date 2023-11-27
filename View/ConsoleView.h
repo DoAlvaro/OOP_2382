@@ -3,6 +3,7 @@
 #include "GameObserver.h"
 #include "../Game/GameManager.h"
 #include "../EventManager/Event/EnumEvent.h"
+#include "../EventManager/Event/TeleportEvent.h"
 #include "IView.h"
 #include <iostream>
 #include <iomanip>
