@@ -46,7 +46,5 @@ class GameManager : Observable{
         void addObserver(Observer* apObserver) override;
         void removeObserver(Observer* observer) override;
         void notify(ViewEvent view_event) override;
-
-        friend class ViewConsole;
 };
 #endif
